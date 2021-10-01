@@ -1,0 +1,2065 @@
+Flawfinder version 2.0.10, (C) 2001-2019 David A. Wheeler.
+Number of rules (primarily dangerous function names) in C/C++ ruleset: 223
+Examining Hourglass-Resurrection/source/application/GUI/Utils/ListViewUtils.cpp
+Examining Hourglass-Resurrection/source/application/GUI/Utils/ListViewUtils.h
+Examining Hourglass-Resurrection/source/application/GUI/Core/DlgBase.h
+Examining Hourglass-Resurrection/source/application/GUI/Core/MenuItemBase.h
+Examining Hourglass-Resurrection/source/application/GUI/Core/ObjBase.h
+Examining Hourglass-Resurrection/source/application/GUI/Core/MenuBase.h
+Examining Hourglass-Resurrection/source/application/GUI/Core/MenuItemBase.cpp
+Examining Hourglass-Resurrection/source/application/GUI/Core/WindowClasses.h
+Examining Hourglass-Resurrection/source/application/GUI/Core/DlgBase.cpp
+Examining Hourglass-Resurrection/source/application/GUI/Objects/RadioButton.cpp
+Examining Hourglass-Resurrection/source/application/GUI/Objects/StaticText.cpp
+Examining Hourglass-Resurrection/source/application/GUI/Objects/EditControl.h
+Examining Hourglass-Resurrection/source/application/GUI/Objects/GroupBox.h
+Examining Hourglass-Resurrection/source/application/GUI/Objects/CheckboxButton.cpp
+Examining Hourglass-Resurrection/source/application/GUI/Objects/SubMenu.cpp
+Examining Hourglass-Resurrection/source/application/GUI/Objects/MenuItem.cpp
+Examining Hourglass-Resurrection/source/application/GUI/Objects/GroupBox.cpp
+Examining Hourglass-Resurrection/source/application/GUI/Objects/SubMenu.h
+Examining Hourglass-Resurrection/source/application/GUI/Objects/EditControl.cpp
+Examining Hourglass-Resurrection/source/application/GUI/Objects/CheckboxButton.h
+Examining Hourglass-Resurrection/source/application/GUI/Objects/MenuSeparator.cpp
+Examining Hourglass-Resurrection/source/application/GUI/Objects/StaticText.h
+Examining Hourglass-Resurrection/source/application/GUI/Objects/MenuSeparator.h
+Examining Hourglass-Resurrection/source/application/GUI/Objects/PushButton.cpp
+Examining Hourglass-Resurrection/source/application/GUI/Objects/CheckableMenuItem.h
+Examining Hourglass-Resurrection/source/application/GUI/Objects/PushButton.h
+Examining Hourglass-Resurrection/source/application/GUI/Objects/RadioButton.h
+Examining Hourglass-Resurrection/source/application/GUI/Objects/MenuItem.h
+Examining Hourglass-Resurrection/source/application/GUI/Objects/CheckableMenuItem.cpp
+Examining Hourglass-Resurrection/source/application/resource.h
+Examining Hourglass-Resurrection/source/application/MainMenu.cpp
+Examining Hourglass-Resurrection/source/application/TrustedModule.h
+Examining Hourglass-Resurrection/source/application/ramwatch.cpp
+Examining Hourglass-Resurrection/source/application/CPUinfo.cpp
+Examining Hourglass-Resurrection/source/application/Config.h
+Examining Hourglass-Resurrection/source/application/ramsearch.cpp
+Examining Hourglass-Resurrection/source/application/CPUinfo.h
+Examining Hourglass-Resurrection/source/application/logging.cpp
+Examining Hourglass-Resurrection/source/application/logging.h
+Examining Hourglass-Resurrection/source/application/ramwatch.h
+Examining Hourglass-Resurrection/source/application/TrustedModule.cpp
+Examining Hourglass-Resurrection/source/application/ramsearch.h
+Examining Hourglass-Resurrection/source/application/CustomDLGs.h
+Examining Hourglass-Resurrection/source/application/InjectDLL.cpp
+Examining Hourglass-Resurrection/source/application/MainMenu.h
+Examining Hourglass-Resurrection/source/application/ExeFileOperations.cpp
+Examining Hourglass-Resurrection/source/application/inputsetup.h
+Examining Hourglass-Resurrection/source/application/md5.h
+Examining Hourglass-Resurrection/source/application/inputsetup.cpp
+Examining Hourglass-Resurrection/source/application/CustomDLGs.cpp
+Examining Hourglass-Resurrection/source/application/DbgHelp/DiaEnumIterator.h
+Examining Hourglass-Resurrection/source/application/DbgHelp/DbgHelpStackWalkHelper.cpp
+Examining Hourglass-Resurrection/source/application/DbgHelp/DbgHelp.h
+Examining Hourglass-Resurrection/source/application/DbgHelp/IDbgHelpStackWalkCallback.h
+Examining Hourglass-Resurrection/source/application/DbgHelp/DbgHelpStackWalkCallback.h
+Examining Hourglass-Resurrection/source/application/DbgHelp/DbgHelpStackWalkCallback.cpp
+Examining Hourglass-Resurrection/source/application/DbgHelp/DbgHelpLoadCallback.h
+Examining Hourglass-Resurrection/source/application/DbgHelp/DbgHelpLoadCallback.cpp
+Examining Hourglass-Resurrection/source/application/DbgHelp/DbgHelp.cpp
+Examining Hourglass-Resurrection/source/application/DbgHelp/DbgHelpPrivate.cpp
+Examining Hourglass-Resurrection/source/application/DbgHelp/DbgHelpStackWalkHelper.h
+Examining Hourglass-Resurrection/source/application/DbgHelp/DbgHelpTypes.h
+Examining Hourglass-Resurrection/source/application/DbgHelp/DbgHelpPrivate.h
+Examining Hourglass-Resurrection/source/application/MD5Checksum.cpp
+Examining Hourglass-Resurrection/source/application/AVIDumping/WaitableBool.h
+Examining Hourglass-Resurrection/source/application/AVIDumping/AudioConverterStream.cpp
+Examining Hourglass-Resurrection/source/application/AVIDumping/WaveFormat.cpp
+Examining Hourglass-Resurrection/source/application/AVIDumping/AudioConverterStream.h
+Examining Hourglass-Resurrection/source/application/AVIDumping/WaveFormat.h
+Examining Hourglass-Resurrection/source/application/AVIDumping/AVIDumper.cpp
+Examining Hourglass-Resurrection/source/application/AVIDumping/WaitableBool.cpp
+Examining Hourglass-Resurrection/source/application/AVIDumping/AVIDumper.h
+Examining Hourglass-Resurrection/source/application/DirLocks.h
+Examining Hourglass-Resurrection/source/application/Utils/COM.cpp
+Examining Hourglass-Resurrection/source/application/Utils/Thread.h
+Examining Hourglass-Resurrection/source/application/Utils/Arguments.h
+Examining Hourglass-Resurrection/source/application/Utils/File.h
+Examining Hourglass-Resurrection/source/application/Utils/COM.h
+Examining Hourglass-Resurrection/source/application/Utils/File/FileDialog.cpp
+Examining Hourglass-Resurrection/source/application/Utils/File/ExecutableFileHeaders.cpp
+Examining Hourglass-Resurrection/source/application/Utils/Arguments.cpp
+Examining Hourglass-Resurrection/source/application/Utils/Thread/Thread.cpp
+Examining Hourglass-Resurrection/source/application/Utils/Exceptions.h
+Examining Hourglass-Resurrection/source/application/Utils/Exceptions/WindowsExceptionsHandler.cpp
+Examining Hourglass-Resurrection/source/application/inject/process.cpp
+Examining Hourglass-Resurrection/source/application/inject/iatmodifier.cpp
+Examining Hourglass-Resurrection/source/application/inject/process.h
+Examining Hourglass-Resurrection/source/application/inject/iatmodifier.h
+Examining Hourglass-Resurrection/source/application/md5.cpp
+Examining Hourglass-Resurrection/source/application/MD5Checksum.h
+Examining Hourglass-Resurrection/source/application/InputCapture.cpp
+Examining Hourglass-Resurrection/source/application/DirLocks.cpp
+Examining Hourglass-Resurrection/source/application/Movie.h
+Examining Hourglass-Resurrection/source/application/wintaser.cpp
+Examining Hourglass-Resurrection/source/application/Config.cpp
+Examining Hourglass-Resurrection/source/application/InputCapture.h
+Examining Hourglass-Resurrection/source/application/ExeFileOperations.h
+Examining Hourglass-Resurrection/source/application/Movie.cpp
+Examining Hourglass-Resurrection/source/application/InjectDLL.h
+Examining Hourglass-Resurrection/source/hooks/wintasee.cpp
+Examining Hourglass-Resurrection/source/hooks/intercept.cpp
+Examining Hourglass-Resurrection/source/hooks/intercept.h
+Examining Hourglass-Resurrection/source/hooks/ipc.cpp
+Examining Hourglass-Resurrection/source/hooks/wintasee.h
+Examining Hourglass-Resurrection/source/hooks/print.cpp
+Examining Hourglass-Resurrection/source/hooks/locale.h
+Examining Hourglass-Resurrection/source/hooks/phasedetection.h
+Examining Hourglass-Resurrection/source/hooks/phasedetection.cpp
+Examining Hourglass-Resurrection/source/hooks/print.h
+Examining Hourglass-Resurrection/source/hooks/dettime.cpp
+Examining Hourglass-Resurrection/source/hooks/tls.h
+Examining Hourglass-Resurrection/source/hooks/global.h
+Examining Hourglass-Resurrection/source/hooks/hooks/d3d8hooks.cpp
+Examining Hourglass-Resurrection/source/hooks/hooks/windowhooks.cpp
+Examining Hourglass-Resurrection/source/hooks/hooks/d3dhooks.cpp
+Examining Hourglass-Resurrection/source/hooks/hooks/synchooks.cpp
+Examining Hourglass-Resurrection/source/hooks/hooks/timerhooks.cpp
+Examining Hourglass-Resurrection/source/hooks/hooks/messagehooks.cpp
+Examining Hourglass-Resurrection/source/hooks/hooks/inputhooks.cpp
+Examining Hourglass-Resurrection/source/hooks/hooks/openglhooks.cpp
+Examining Hourglass-Resurrection/source/hooks/hooks/gdihooks.cpp
+Examining Hourglass-Resurrection/source/hooks/hooks/timehooks.cpp
+Examining Hourglass-Resurrection/source/hooks/hooks/d3d9hooks.cpp
+Examining Hourglass-Resurrection/source/hooks/hooks/Xinputhooks.cpp
+Examining Hourglass-Resurrection/source/hooks/hooks/sdlhooks.cpp
+Examining Hourglass-Resurrection/source/hooks/hooks/registryhooks.cpp
+Examining Hourglass-Resurrection/source/hooks/hooks/ddrawhooks.cpp
+Examining Hourglass-Resurrection/source/hooks/hooks/soundhooks.cpp
+Examining Hourglass-Resurrection/source/hooks/hooks/filehooks.cpp
+Examining Hourglass-Resurrection/source/hooks/hooks/threadhooks.cpp
+Examining Hourglass-Resurrection/source/hooks/hooks/modulehooks.cpp
+Examining Hourglass-Resurrection/source/hooks/hooks/waithooks.cpp
+Examining Hourglass-Resurrection/source/hooks/ipc.h
+Examining Hourglass-Resurrection/source/hooks/dettime.h
+Examining Hourglass-Resurrection/source/hooks/soundmixing.cpp
+Examining Hourglass-Resurrection/source/hooks/tramps/moduletramps.h
+Examining Hourglass-Resurrection/source/hooks/tramps/opengltramps.h
+Examining Hourglass-Resurrection/source/hooks/tramps/timetramps.h
+Examining Hourglass-Resurrection/source/hooks/tramps/filetramps.h
+Examining Hourglass-Resurrection/source/hooks/tramps/soundtramps.h
+Examining Hourglass-Resurrection/source/hooks/tramps/windowtramps.h
+Examining Hourglass-Resurrection/source/hooks/tramps/dxvideotramps.h
+Examining Hourglass-Resurrection/source/hooks/tramps/Xinputtramps.h
+Examining Hourglass-Resurrection/source/hooks/tramps/messagetramps.h
+Examining Hourglass-Resurrection/source/hooks/tramps/synctramps.h
+Examining Hourglass-Resurrection/source/hooks/tramps/registrytramps.h
+Examining Hourglass-Resurrection/source/hooks/tramps/gditramps.h
+Examining Hourglass-Resurrection/source/hooks/tramps/waittramps.h
+Examining Hourglass-Resurrection/source/hooks/tramps/timertramps.h
+Examining Hourglass-Resurrection/source/hooks/tramps/threadtramps.h
+Examining Hourglass-Resurrection/source/hooks/tramps/alltramps.h
+Examining Hourglass-Resurrection/source/hooks/tramps/sdltramps.h
+Examining Hourglass-Resurrection/source/hooks/tramps/inputtramps.h
+Examining Hourglass-Resurrection/source/hooks/msgqueue.h
+Examining Hourglass-Resurrection/source/tests/d3d9ex/d3d9ex.cpp
+Examining Hourglass-Resurrection/source/tests/d3d9ex/time_stats.cpp
+Examining Hourglass-Resurrection/source/tests/d3d9ex/d3d_stuff.cpp
+Examining Hourglass-Resurrection/source/tests/d3d9ex/stdafx.cpp
+Examining Hourglass-Resurrection/source/tests/d3d9ex/d3d_stuff.h
+Examining Hourglass-Resurrection/source/tests/d3d9ex/time_stats.h
+Examining Hourglass-Resurrection/source/tests/d3d9ex/stdafx.h
+Examining Hourglass-Resurrection/source/tests/basic_timing/time_stats.cpp
+Examining Hourglass-Resurrection/source/tests/basic_timing/basictiming.cpp
+Examining Hourglass-Resurrection/source/tests/basic_timing/stdafx.cpp
+Examining Hourglass-Resurrection/source/tests/basic_timing/time_stats.h
+Examining Hourglass-Resurrection/source/tests/basic_timing/stdafx.h
+Examining Hourglass-Resurrection/source/tests/windows_input/stdafx.cpp
+Examining Hourglass-Resurrection/source/tests/windows_input/windows_input.cpp
+Examining Hourglass-Resurrection/source/tests/windows_input/input.h
+Examining Hourglass-Resurrection/source/tests/windows_input/input.cpp
+Examining Hourglass-Resurrection/source/tests/windows_input/stdafx.h
+Examining Hourglass-Resurrection/source/tests/d3d9/d3d9.cpp
+Examining Hourglass-Resurrection/source/tests/d3d9/time_stats.cpp
+Examining Hourglass-Resurrection/source/tests/d3d9/d3d_stuff.cpp
+Examining Hourglass-Resurrection/source/tests/d3d9/stdafx.cpp
+Examining Hourglass-Resurrection/source/tests/d3d9/d3d_stuff.h
+Examining Hourglass-Resurrection/source/tests/d3d9/time_stats.h
+Examining Hourglass-Resurrection/source/tests/d3d9/stdafx.h
+Examining Hourglass-Resurrection/source/tests/shared/timing.h
+Examining Hourglass-Resurrection/source/tests/shared/logger.h
+Examining Hourglass-Resurrection/source/tests/shared/logger.cpp
+Examining Hourglass-Resurrection/source/tests/shared/timing.cpp
+Examining Hourglass-Resurrection/source/test_runner/binary_tests.h
+Examining Hourglass-Resurrection/source/test_runner/main.cpp
+Examining Hourglass-Resurrection/source/test_runner/hourglass.h
+Examining Hourglass-Resurrection/source/test_runner/hourglass.cpp
+Examining Hourglass-Resurrection/source/test_runner/binary_tests.cpp
+Examining Hourglass-Resurrection/source/shared/version.h
+Examining Hourglass-Resurrection/source/shared/msg.h
+Examining Hourglass-Resurrection/source/shared/asm.h
+Examining Hourglass-Resurrection/source/shared/Alignment.h
+Examining Hourglass-Resurrection/source/shared/ipc.h
+Examining Hourglass-Resurrection/source/shared/input.h
+Examining Hourglass-Resurrection/source/shared/winutil.h
+Examining Hourglass-Resurrection/source/shared/CompilerChecks.h
+Examining Hourglass-Resurrection/source/shared/logcat.h
+Examining Hourglass-Resurrection/external/dinput.h
+Examining Hourglass-Resurrection/external/d3d.h
+Examining Hourglass-Resurrection/external/d3d8caps.h
+Examining Hourglass-Resurrection/external/d3dtypes.h
+Examining Hourglass-Resurrection/external/dls1.h
+Examining Hourglass-Resurrection/external/dmo.h
+Examining Hourglass-Resurrection/external/dls2.h
+Examining Hourglass-Resurrection/external/dmort.h
+Examining Hourglass-Resurrection/external/dmdls.h
+Examining Hourglass-Resurrection/external/d3d9caps.h
+Examining Hourglass-Resurrection/external/dmoimpl.h
+Examining Hourglass-Resurrection/external/d3d8.h
+Examining Hourglass-Resurrection/external/dmusici.h
+Examining Hourglass-Resurrection/external/dmusics.h
+Examining Hourglass-Resurrection/external/dmoreg.h
+Examining Hourglass-Resurrection/external/Xinput.h
+Examining Hourglass-Resurrection/external/dmerror.h
+Examining Hourglass-Resurrection/external/d3d8types.h
+Examining Hourglass-Resurrection/external/dmusicf.h
+Examining Hourglass-Resurrection/external/dsound.h
+Examining Hourglass-Resurrection/external/dmplugin.h
+Examining Hourglass-Resurrection/external/Catch/catch.hpp
+Examining Hourglass-Resurrection/external/d3d9types.h
+Examining Hourglass-Resurrection/external/d3d9.h
+Examining Hourglass-Resurrection/external/dmodshow.h
+Examining Hourglass-Resurrection/external/ddraw.h
+Examining Hourglass-Resurrection/external/dmusbuff.h
+Examining Hourglass-Resurrection/external/dmusicc.h
+Examining Hourglass-Resurrection/external/dmksctrl.h
+Examining Hourglass-Resurrection/external/d3dcaps.h
+
+FINAL RESULTS:
+
+Hourglass-Resurrection/source/application/AVIDumping/AVIDumper.cpp:839:  [4] (buffer) wcscpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using a function version that stops copying at the end
+  of the buffer.
+Hourglass-Resurrection/source/application/AVIDumping/AVIDumper.cpp:879:  [4] (buffer) wcscpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using a function version that stops copying at the end
+  of the buffer.
+Hourglass-Resurrection/source/application/AVIDumping/AVIDumper.cpp:893:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/AVIDumping/AVIDumper.cpp:915:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/Config.cpp:22:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/Config.cpp:134:  [4] (buffer) wcscpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using a function version that stops copying at the end
+  of the buffer.
+Hourglass-Resurrection/source/application/Config.cpp:138:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/Config.cpp:152:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/Config.cpp:155:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/Config.cpp:166:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/Config.cpp:205:  [4] (buffer) wcscpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using a function version that stops copying at the end
+  of the buffer.
+Hourglass-Resurrection/source/application/Config.cpp:207:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/Config.cpp:227:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/DirLocks.cpp:24:  [4] (buffer) wcscpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using a function version that stops copying at the end
+  of the buffer.
+Hourglass-Resurrection/source/application/DirLocks.cpp:33:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/InputCapture.cpp:429:  [4] (buffer) wcscat:
+  Does not check for buffer overflows when concatenating to destination
+  [MS-banned] (CWE-120).
+Hourglass-Resurrection/source/application/InputCapture.cpp:764:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/MainMenu.cpp:15:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/MainMenu.cpp:17:  [4] (buffer) wcscpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using a function version that stops copying at the end
+  of the buffer.
+Hourglass-Resurrection/source/application/MainMenu.cpp:18:  [4] (buffer) wcscat:
+  Does not check for buffer overflows when concatenating to destination
+  [MS-banned] (CWE-120).
+Hourglass-Resurrection/source/application/MainMenu.cpp:137:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/MainMenu.cpp:140:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/MainMenu.cpp:149:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/MainMenu.cpp:231:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination
+  [MS-banned] (CWE-120). Consider using strcat_s, strncat, strlcat, or
+  snprintf (warning: strncat is easily misused).
+Hourglass-Resurrection/source/application/MainMenu.cpp:507:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using snprintf, strcpy_s, or strlcpy (warning: strncpy
+  easily misused).
+Hourglass-Resurrection/source/application/Movie.cpp:74:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/Movie.cpp:182:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/Movie.cpp:194:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/Movie.cpp:214:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/Movie.cpp:262:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/Movie.cpp:300:  [4] (buffer) wcscpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using a function version that stops copying at the end
+  of the buffer.
+Hourglass-Resurrection/source/application/Movie.cpp:306:  [4] (buffer) wcscpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using a function version that stops copying at the end
+  of the buffer.
+Hourglass-Resurrection/source/application/inputsetup.cpp:840:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination
+  [MS-banned] (CWE-120). Consider using strcat_s, strncat, strlcat, or
+  snprintf (warning: strncat is easily misused).
+Hourglass-Resurrection/source/application/inputsetup.cpp:860:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination
+  [MS-banned] (CWE-120). Consider using strcat_s, strncat, strlcat, or
+  snprintf (warning: strncat is easily misused).
+Hourglass-Resurrection/source/application/inputsetup.cpp:862:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination
+  [MS-banned] (CWE-120). Consider using strcat_s, strncat, strlcat, or
+  snprintf (warning: strncat is easily misused).
+Hourglass-Resurrection/source/application/inputsetup.cpp:864:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination
+  [MS-banned] (CWE-120). Consider using strcat_s, strncat, strlcat, or
+  snprintf (warning: strncat is easily misused).
+Hourglass-Resurrection/source/application/inputsetup.cpp:866:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination
+  [MS-banned] (CWE-120). Consider using strcat_s, strncat, strlcat, or
+  snprintf (warning: strncat is easily misused).
+Hourglass-Resurrection/source/application/inputsetup.cpp:869:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination
+  [MS-banned] (CWE-120). Consider using strcat_s, strncat, strlcat, or
+  snprintf (warning: strncat is easily misused).
+Hourglass-Resurrection/source/application/inputsetup.cpp:871:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination
+  [MS-banned] (CWE-120). Consider using strcat_s, strncat, strlcat, or
+  snprintf (warning: strncat is easily misused).
+Hourglass-Resurrection/source/application/inputsetup.cpp:888:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination
+  [MS-banned] (CWE-120). Consider using strcat_s, strncat, strlcat, or
+  snprintf (warning: strncat is easily misused).
+Hourglass-Resurrection/source/application/inputsetup.cpp:1769:  [4] (buffer) sprintf:
+  Does not check for buffer overflows (CWE-120). Use sprintf_s, snprintf, or
+  vsnprintf.
+Hourglass-Resurrection/source/application/inputsetup.cpp:1796:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using snprintf, strcpy_s, or strlcpy (warning: strncpy
+  easily misused).
+Hourglass-Resurrection/source/application/inputsetup.cpp:1822:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using snprintf, strcpy_s, or strlcpy (warning: strncpy
+  easily misused).
+Hourglass-Resurrection/source/application/inputsetup.cpp:1848:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using snprintf, strcpy_s, or strlcpy (warning: strncpy
+  easily misused).
+Hourglass-Resurrection/source/application/inputsetup.cpp:1927:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using snprintf, strcpy_s, or strlcpy (warning: strncpy
+  easily misused).
+Hourglass-Resurrection/source/application/inputsetup.cpp:1929:  [4] (buffer) sprintf:
+  Does not check for buffer overflows (CWE-120). Use sprintf_s, snprintf, or
+  vsnprintf.
+Hourglass-Resurrection/source/application/inputsetup.cpp:1994:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using snprintf, strcpy_s, or strlcpy (warning: strncpy
+  easily misused).
+Hourglass-Resurrection/source/application/inputsetup.cpp:2030:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using snprintf, strcpy_s, or strlcpy (warning: strncpy
+  easily misused).
+Hourglass-Resurrection/source/application/inputsetup.cpp:2032:  [4] (buffer) sprintf:
+  Does not check for buffer overflows (CWE-120). Use sprintf_s, snprintf, or
+  vsnprintf.
+Hourglass-Resurrection/source/application/inputsetup.cpp:2102:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using snprintf, strcpy_s, or strlcpy (warning: strncpy
+  easily misused).
+Hourglass-Resurrection/source/application/inputsetup.cpp:2137:  [4] (buffer) sprintf:
+  Does not check for buffer overflows (CWE-120). Use sprintf_s, snprintf, or
+  vsnprintf.
+Hourglass-Resurrection/source/application/inputsetup.cpp:2139:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using snprintf, strcpy_s, or strlcpy (warning: strncpy
+  easily misused).
+Hourglass-Resurrection/source/application/inputsetup.cpp:2224:  [4] (buffer) sprintf:
+  Does not check for buffer overflows (CWE-120). Use sprintf_s, snprintf, or
+  vsnprintf.
+Hourglass-Resurrection/source/application/inputsetup.cpp:2227:  [4] (buffer) sprintf:
+  Does not check for buffer overflows (CWE-120). Use sprintf_s, snprintf, or
+  vsnprintf.
+Hourglass-Resurrection/source/application/inputsetup.cpp:2234:  [4] (format) sprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/ramsearch.cpp:353:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/ramsearch.cpp:371:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/ramsearch.cpp:373:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/ramsearch.cpp:375:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/ramsearch.cpp:376:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/ramsearch.cpp:377:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/ramsearch.cpp:383:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/ramsearch.cpp:385:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/ramsearch.cpp:387:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/ramsearch.cpp:388:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/ramsearch.cpp:389:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/ramsearch.cpp:396:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/ramsearch.cpp:397:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/ramsearch.cpp:398:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/ramsearch.cpp:399:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/ramsearch.cpp:434:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/ramsearch.cpp:1765:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/ramsearch.cpp:1783:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/ramsearch.cpp:2212:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/ramsearch.cpp:2214:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/ramwatch.cpp:99:  [4] (buffer) wcscpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using a function version that stops copying at the end
+  of the buffer.
+Hourglass-Resurrection/source/application/ramwatch.cpp:288:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/ramwatch.cpp:292:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/ramwatch.cpp:320:  [4] (buffer) wcscpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using a function version that stops copying at the end
+  of the buffer.
+Hourglass-Resurrection/source/application/ramwatch.cpp:325:  [4] (buffer) wcscpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using a function version that stops copying at the end
+  of the buffer.
+Hourglass-Resurrection/source/application/ramwatch.cpp:329:  [4] (buffer) wcscpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using a function version that stops copying at the end
+  of the buffer.
+Hourglass-Resurrection/source/application/ramwatch.cpp:344:  [4] (buffer) wcscpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using a function version that stops copying at the end
+  of the buffer.
+Hourglass-Resurrection/source/application/ramwatch.cpp:348:  [4] (buffer) wcscpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using a function version that stops copying at the end
+  of the buffer.
+Hourglass-Resurrection/source/application/ramwatch.cpp:388:  [4] (buffer) wcscpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using a function version that stops copying at the end
+  of the buffer.
+Hourglass-Resurrection/source/application/ramwatch.cpp:389:  [4] (buffer) wcscpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using a function version that stops copying at the end
+  of the buffer.
+Hourglass-Resurrection/source/application/ramwatch.cpp:473:  [4] (buffer) wcscpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using a function version that stops copying at the end
+  of the buffer.
+Hourglass-Resurrection/source/application/ramwatch.cpp:484:  [4] (buffer) wcscpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using a function version that stops copying at the end
+  of the buffer.
+Hourglass-Resurrection/source/application/ramwatch.cpp:486:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/ramwatch.cpp:491:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/ramwatch.cpp:511:  [4] (buffer) wcscpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using a function version that stops copying at the end
+  of the buffer.
+Hourglass-Resurrection/source/application/ramwatch.cpp:517:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/ramwatch.cpp:522:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/ramwatch.cpp:547:  [4] (buffer) wcscpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using a function version that stops copying at the end
+  of the buffer.
+Hourglass-Resurrection/source/application/ramwatch.cpp:593:  [4] (buffer) wcscpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using a function version that stops copying at the end
+  of the buffer.
+Hourglass-Resurrection/source/application/ramwatch.cpp:688:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/ramwatch.cpp:964:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/wintaser.cpp:384:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/wintaser.cpp:609:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/wintaser.cpp:962:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using snprintf, strcpy_s, or strlcpy (warning: strncpy
+  easily misused).
+Hourglass-Resurrection/source/application/wintaser.cpp:964:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using snprintf, strcpy_s, or strlcpy (warning: strncpy
+  easily misused).
+Hourglass-Resurrection/source/application/wintaser.cpp:1040:  [4] (buffer) wcscpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using a function version that stops copying at the end
+  of the buffer.
+Hourglass-Resurrection/source/application/wintaser.cpp:1069:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/wintaser.cpp:1097:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/wintaser.cpp:1119:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/wintaser.cpp:1125:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/wintaser.cpp:1138:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/wintaser.cpp:1145:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/wintaser.cpp:1429:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/wintaser.cpp:1439:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/wintaser.cpp:1448:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/wintaser.cpp:1729:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/wintaser.cpp:1750:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/wintaser.cpp:2271:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/wintaser.cpp:2325:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/wintaser.cpp:2332:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/wintaser.cpp:2347:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/wintaser.cpp:2622:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/wintaser.cpp:2719:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/wintaser.cpp:3329:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/wintaser.cpp:3582:  [4] (format) sprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/wintaser.cpp:3981:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using snprintf, strcpy_s, or strlcpy (warning: strncpy
+  easily misused).
+Hourglass-Resurrection/source/application/wintaser.cpp:4003:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using snprintf, strcpy_s, or strlcpy (warning: strncpy
+  easily misused).
+Hourglass-Resurrection/source/application/wintaser.cpp:4153:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/wintaser.cpp:4212:  [4] (buffer) sprintf:
+  Does not check for buffer overflows (CWE-120). Use sprintf_s, snprintf, or
+  vsnprintf.
+Hourglass-Resurrection/source/application/wintaser.cpp:4286:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using snprintf, strcpy_s, or strlcpy (warning: strncpy
+  easily misused).
+Hourglass-Resurrection/source/application/wintaser.cpp:4908:  [4] (buffer) sprintf:
+  Does not check for buffer overflows (CWE-120). Use sprintf_s, snprintf, or
+  vsnprintf.
+Hourglass-Resurrection/source/application/wintaser.cpp:5049:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/wintaser.cpp:5051:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/wintaser.cpp:5287:  [4] (buffer) wcscpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using a function version that stops copying at the end
+  of the buffer.
+Hourglass-Resurrection/source/application/wintaser.cpp:5288:  [4] (buffer) wcscpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using a function version that stops copying at the end
+  of the buffer.
+Hourglass-Resurrection/source/application/wintaser.cpp:5299:  [4] (buffer) wcscpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using a function version that stops copying at the end
+  of the buffer.
+Hourglass-Resurrection/source/application/wintaser.cpp:5328:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/wintaser.cpp:5339:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/wintaser.cpp:5343:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/wintaser.cpp:6187:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/wintaser.cpp:6466:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/wintaser.cpp:6481:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/wintaser.cpp:6552:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/source/application/wintaser.cpp:6580:  [4] (buffer) wcscpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using a function version that stops copying at the end
+  of the buffer.
+Hourglass-Resurrection/source/application/wintaser.cpp:6586:  [4] (buffer) wcscpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using a function version that stops copying at the end
+  of the buffer.
+Hourglass-Resurrection/source/application/wintaser.cpp:6590:  [4] (buffer) wcscat:
+  Does not check for buffer overflows when concatenating to destination
+  [MS-banned] (CWE-120).
+Hourglass-Resurrection/source/hooks/hooks/gdihooks.cpp:599:  [4] (buffer) wcscpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using a function version that stops copying at the end
+  of the buffer.
+Hourglass-Resurrection/source/hooks/hooks/gdihooks.cpp:602:  [4] (buffer) wcscpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using a function version that stops copying at the end
+  of the buffer.
+Hourglass-Resurrection/source/hooks/hooks/gdihooks.cpp:604:  [4] (buffer) wcscpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using a function version that stops copying at the end
+  of the buffer.
+Hourglass-Resurrection/source/hooks/hooks/gdihooks.cpp:630:  [4] (buffer) wcscpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using a function version that stops copying at the end
+  of the buffer.
+Hourglass-Resurrection/source/hooks/hooks/threadhooks.cpp:183:  [4] (buffer) sprintf:
+  Does not check for buffer overflows (CWE-120). Use sprintf_s, snprintf, or
+  vsnprintf.
+Hourglass-Resurrection/source/hooks/hooks/threadhooks.cpp:205:  [4] (buffer) sprintf:
+  Does not check for buffer overflows (CWE-120). Use sprintf_s, snprintf, or
+  vsnprintf.
+Hourglass-Resurrection/source/hooks/hooks/threadhooks.cpp:289:  [4] (buffer) sprintf:
+  Does not check for buffer overflows (CWE-120). Use sprintf_s, snprintf, or
+  vsnprintf.
+Hourglass-Resurrection/source/hooks/hooks/threadhooks.cpp:347:  [4] (buffer) sprintf:
+  Does not check for buffer overflows (CWE-120). Use sprintf_s, snprintf, or
+  vsnprintf.
+Hourglass-Resurrection/source/hooks/ipc.cpp:29:  [4] (format) swprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+Hourglass-Resurrection/external/Catch/catch.hpp:8717:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+Hourglass-Resurrection/source/application/AVIDumping/AVIDumper.cpp:758:  [3] (misc) InitializeCriticalSection:
+  Exceptions can be thrown in low-memory situations. Use
+  InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/application/AVIDumping/AVIDumper.cpp:759:  [3] (misc) InitializeCriticalSection:
+  Exceptions can be thrown in low-memory situations. Use
+  InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/application/AVIDumping/AVIDumper.cpp:760:  [3] (misc) InitializeCriticalSection:
+  Exceptions can be thrown in low-memory situations. Use
+  InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/application/logging.cpp:32:  [3] (misc) InitializeCriticalSection:
+  Exceptions can be thrown in low-memory situations. Use
+  InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/application/logging.cpp:145:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/application/ramsearch.cpp:176:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/application/ramsearch.cpp:182:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/application/ramsearch.cpp:919:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/application/ramsearch.cpp:1186:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/application/ramsearch.cpp:1195:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/application/ramsearch.cpp:1213:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/application/ramsearch.cpp:1214:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/application/ramsearch.cpp:1994:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/application/ramsearch.cpp:2242:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/application/ramsearch.cpp:2258:  [3] (misc) InitializeCriticalSection:
+  Exceptions can be thrown in low-memory situations. Use
+  InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/application/ramsearch.cpp:2299:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/application/ramwatch.cpp:96:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/application/ramwatch.cpp:177:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/application/ramwatch.cpp:193:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/application/wintaser.cpp:1944:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/application/wintaser.cpp:3288:  [3] (misc) InitializeCriticalSection:
+  Exceptions can be thrown in low-memory situations. Use
+  InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/application/wintaser.cpp:3498:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/application/wintaser.cpp:3962:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/application/wintaser.cpp:4009:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/application/wintaser.cpp:4016:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/application/wintaser.cpp:4023:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/application/wintaser.cpp:4055:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/application/wintaser.cpp:4177:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/application/wintaser.cpp:4449:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/application/wintaser.cpp:4778:  [3] (misc) InitializeCriticalSection:
+  Exceptions can be thrown in low-memory situations. Use
+  InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/application/wintaser.cpp:4781:  [3] (misc) InitializeCriticalSection:
+  Exceptions can be thrown in low-memory situations. Use
+  InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/application/wintaser.cpp:5063:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/hooks/hooks/messagehooks.cpp:896:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/hooks/hooks/messagehooks.cpp:978:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/hooks/hooks/messagehooks.cpp:1025:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/hooks/hooks/messagehooks.cpp:1373:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/hooks/hooks/messagehooks.cpp:1431:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/hooks/hooks/messagehooks.cpp:2133:  [3] (misc) InitializeCriticalSection:
+  Exceptions can be thrown in low-memory situations. Use
+  InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/hooks/hooks/modulehooks.cpp:814:  [3] (misc) InitializeCriticalSection:
+  Exceptions can be thrown in low-memory situations. Use
+  InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/hooks/hooks/openglhooks.cpp:1041:  [3] (misc) LoadLibrary:
+  Ensure that the full path to the library is specified, or current directory
+  may be used (CWE-829, CWE-20). Use registry entry or GetWindowsDirectory to
+  find library path, if you aren't already.
+Hourglass-Resurrection/source/hooks/hooks/soundhooks.cpp:97:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/hooks/hooks/soundhooks.cpp:124:  [3] (misc) InitializeCriticalSection:
+  Exceptions can be thrown in low-memory situations. Use
+  InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/hooks/hooks/soundhooks.cpp:125:  [3] (misc) InitializeCriticalSection:
+  Exceptions can be thrown in low-memory situations. Use
+  InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/hooks/hooks/soundhooks.cpp:132:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/hooks/hooks/soundhooks.cpp:335:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/hooks/hooks/soundhooks.cpp:368:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/hooks/hooks/soundhooks.cpp:369:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/hooks/hooks/soundhooks.cpp:495:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/hooks/hooks/soundhooks.cpp:653:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/hooks/hooks/soundhooks.cpp:685:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/hooks/hooks/soundhooks.cpp:846:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/hooks/hooks/soundhooks.cpp:927:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/hooks/hooks/soundhooks.cpp:953:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/hooks/hooks/soundhooks.cpp:970:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/hooks/hooks/soundhooks.cpp:990:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/hooks/hooks/soundhooks.cpp:1074:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/hooks/hooks/soundhooks.cpp:1092:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/hooks/hooks/soundhooks.cpp:1101:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/hooks/hooks/soundhooks.cpp:1585:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/hooks/hooks/soundhooks.cpp:1775:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/hooks/hooks/soundhooks.cpp:2867:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/hooks/hooks/soundhooks.cpp:3002:  [3] (misc) InitializeCriticalSection:
+  Exceptions can be thrown in low-memory situations. Use
+  InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/hooks/hooks/soundhooks.cpp:3003:  [3] (misc) InitializeCriticalSection:
+  Exceptions can be thrown in low-memory situations. Use
+  InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/hooks/hooks/synchooks.cpp:23:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/hooks/hooks/synchooks.cpp:45:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/hooks/hooks/synchooks.cpp:58:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/hooks/hooks/synchooks.cpp:72:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/hooks/hooks/synchooks.cpp:84:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/hooks/hooks/synchooks.cpp:111:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/hooks/hooks/synchooks.cpp:123:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/hooks/hooks/synchooks.cpp:135:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/hooks/hooks/synchooks.cpp:147:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/hooks/hooks/synchooks.cpp:173:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/hooks/hooks/synchooks.cpp:207:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/hooks/hooks/synchooks.cpp:234:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/hooks/hooks/synchooks.cpp:246:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/hooks/hooks/synchooks.cpp:258:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/hooks/hooks/synchooks.cpp:270:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/hooks/hooks/synchooks.cpp:282:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/hooks/hooks/synchooks.cpp:294:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/hooks/hooks/synchooks.cpp:306:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/hooks/hooks/synchooks.cpp:318:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/hooks/hooks/synchooks.cpp:352:  [3] (misc) InitializeCriticalSection:
+  Exceptions can be thrown in low-memory situations. Use
+  InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/hooks/hooks/timerhooks.cpp:77:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/hooks/hooks/timerhooks.cpp:214:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/hooks/hooks/timerhooks.cpp:577:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/hooks/hooks/timerhooks.cpp:621:  [3] (misc) InitializeCriticalSection:
+  Exceptions can be thrown in low-memory situations. Use
+  InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/source/hooks/intercept.cpp:200:  [3] (misc) LoadLibrary:
+  Ensure that the full path to the library is specified, or current directory
+  may be used (CWE-829, CWE-20). Use registry entry or GetWindowsDirectory to
+  find library path, if you aren't already.
+Hourglass-Resurrection/source/shared/winutil.h:8:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+Hourglass-Resurrection/external/Catch/catch.hpp:1609:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/external/Catch/catch.hpp:1610:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/external/Catch/catch.hpp:3197:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/external/Catch/catch.hpp:6174:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+Hourglass-Resurrection/external/Catch/catch.hpp:6268:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+Hourglass-Resurrection/external/Catch/catch.hpp:6314:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+Hourglass-Resurrection/external/Catch/catch.hpp:6503:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/external/Catch/catch.hpp:7143:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/external/Catch/catch.hpp:7643:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/external/Catch/catch.hpp:7680:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+Hourglass-Resurrection/external/Catch/catch.hpp:8920:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/external/Catch/catch.hpp:9562:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/external/Catch/catch.hpp:9569:  [2] (buffer) sprintf:
+  Does not check for buffer overflows (CWE-120). Use sprintf_s, snprintf, or
+  vsnprintf. Risk is low because the source has a constant maximum length.
+Hourglass-Resurrection/external/Catch/catch.hpp:9796:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/external/Catch/catch.hpp:10376:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/external/d3d8types.h:1585:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/external/d3d8types.h:1586:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/external/d3d9types.h:1761:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/external/d3d9types.h:1762:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/external/d3d9types.h:1763:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/external/ddraw.h:828:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/external/ddraw.h:829:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/external/ddraw.h:878:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/external/ddraw.h:879:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/application/AVIDumping/AVIDumper.cpp:397:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/application/AVIDumping/AudioConverterStream.cpp:123:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/application/AVIDumping/AudioConverterStream.cpp:192:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/application/AVIDumping/AudioConverterStream.cpp:208:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/application/AVIDumping/WaveFormat.cpp:57:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/application/CPUinfo.cpp:14:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/application/DbgHelp/DbgHelpStackWalkHelper.cpp:50:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/application/DirLocks.cpp:25:  [2] (buffer) wcscat:
+  Does not check for buffer overflows when concatenating to destination
+  [MS-banned] (CWE-120). Risk is low because the source is a constant string.
+Hourglass-Resurrection/source/application/InputCapture.cpp:413:  [2] (buffer) wcscat:
+  Does not check for buffer overflows when concatenating to destination
+  [MS-banned] (CWE-120). Risk is low because the source is a constant string.
+Hourglass-Resurrection/source/application/InputCapture.cpp:414:  [2] (buffer) wcscat:
+  Does not check for buffer overflows when concatenating to destination
+  [MS-banned] (CWE-120). Risk is low because the source is a constant string.
+Hourglass-Resurrection/source/application/InputCapture.cpp:415:  [2] (buffer) wcscat:
+  Does not check for buffer overflows when concatenating to destination
+  [MS-banned] (CWE-120). Risk is low because the source is a constant string.
+Hourglass-Resurrection/source/application/InputCapture.cpp:416:  [2] (buffer) wcscat:
+  Does not check for buffer overflows when concatenating to destination
+  [MS-banned] (CWE-120). Risk is low because the source is a constant string.
+Hourglass-Resurrection/source/application/InputCapture.cpp:417:  [2] (buffer) wcscat:
+  Does not check for buffer overflows when concatenating to destination
+  [MS-banned] (CWE-120). Risk is low because the source is a constant string.
+Hourglass-Resurrection/source/application/InputCapture.cpp:418:  [2] (buffer) wcscat:
+  Does not check for buffer overflows when concatenating to destination
+  [MS-banned] (CWE-120). Risk is low because the source is a constant string.
+Hourglass-Resurrection/source/application/InputCapture.cpp:419:  [2] (buffer) wcscat:
+  Does not check for buffer overflows when concatenating to destination
+  [MS-banned] (CWE-120). Risk is low because the source is a constant string.
+Hourglass-Resurrection/source/application/InputCapture.cpp:420:  [2] (buffer) wcscat:
+  Does not check for buffer overflows when concatenating to destination
+  [MS-banned] (CWE-120). Risk is low because the source is a constant string.
+Hourglass-Resurrection/source/application/InputCapture.cpp:421:  [2] (buffer) wcscat:
+  Does not check for buffer overflows when concatenating to destination
+  [MS-banned] (CWE-120). Risk is low because the source is a constant string.
+Hourglass-Resurrection/source/application/InputCapture.cpp:422:  [2] (buffer) wcscat:
+  Does not check for buffer overflows when concatenating to destination
+  [MS-banned] (CWE-120). Risk is low because the source is a constant string.
+Hourglass-Resurrection/source/application/InputCapture.cpp:423:  [2] (buffer) wcscat:
+  Does not check for buffer overflows when concatenating to destination
+  [MS-banned] (CWE-120). Risk is low because the source is a constant string.
+Hourglass-Resurrection/source/application/InputCapture.cpp:424:  [2] (buffer) wcscat:
+  Does not check for buffer overflows when concatenating to destination
+  [MS-banned] (CWE-120). Risk is low because the source is a constant string.
+Hourglass-Resurrection/source/application/InputCapture.cpp:591:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/application/InputCapture.cpp:712:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/application/InputCapture.cpp:713:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/application/InputCapture.cpp:771:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/application/InputCapture.cpp:772:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/application/InputCapture.h:84:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/application/MD5Checksum.cpp:47:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/application/MD5Checksum.cpp:55:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/application/MainMenu.cpp:192:  [2] (buffer) sprintf:
+  Does not check for buffer overflows (CWE-120). Use sprintf_s, snprintf, or
+  vsnprintf. Risk is low because the source has a constant maximum length.
+Hourglass-Resurrection/source/application/MainMenu.cpp:201:  [2] (buffer) sprintf:
+  Does not check for buffer overflows (CWE-120). Use sprintf_s, snprintf, or
+  vsnprintf. Risk is low because the source has a constant maximum length.
+Hourglass-Resurrection/source/application/MainMenu.cpp:210:  [2] (buffer) sprintf:
+  Does not check for buffer overflows (CWE-120). Use sprintf_s, snprintf, or
+  vsnprintf. Risk is low because the source has a constant maximum length.
+Hourglass-Resurrection/source/application/MainMenu.cpp:220:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/application/MainMenu.cpp:224:  [2] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using snprintf, strcpy_s, or strlcpy (warning: strncpy
+  easily misused). Risk is low because the source is a constant string.
+Hourglass-Resurrection/source/application/MainMenu.cpp:227:  [2] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using snprintf, strcpy_s, or strlcpy (warning: strncpy
+  easily misused). Risk is low because the source is a constant string.
+Hourglass-Resurrection/source/application/Movie.cpp:223:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/application/Movie.cpp:293:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/application/Movie.cpp:302:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/application/Movie.h:18:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/application/Utils/File/ExecutableFileHeaders.cpp:97:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/application/Utils/File/ExecutableFileHeaders.cpp:99:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/application/Utils/File/ExecutableFileHeaders.cpp:114:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/application/Utils/File/ExecutableFileHeaders.cpp:160:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/application/inject/iatmodifier.cpp:51:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/application/inject/iatmodifier.cpp:151:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/application/inputsetup.cpp:62:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/application/inputsetup.cpp:144:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/application/inputsetup.cpp:149:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/application/inputsetup.cpp:198:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/application/inputsetup.cpp:199:  [2] (buffer) sprintf:
+  Does not check for buffer overflows (CWE-120). Use sprintf_s, snprintf, or
+  vsnprintf. Risk is low because the source has a constant maximum length.
+Hourglass-Resurrection/source/application/inputsetup.cpp:376:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/application/inputsetup.cpp:381:  [2] (buffer) sprintf:
+  Does not check for buffer overflows (CWE-120). Use sprintf_s, snprintf, or
+  vsnprintf. Risk is low because the source has a constant maximum length.
+Hourglass-Resurrection/source/application/inputsetup.cpp:392:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/application/inputsetup.cpp:616:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/application/inputsetup.cpp:617:  [2] (buffer) sprintf:
+  Does not check for buffer overflows (CWE-120). Use sprintf_s, snprintf, or
+  vsnprintf. Risk is low because the source has a constant maximum length.
+Hourglass-Resurrection/source/application/inputsetup.cpp:775:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/application/inputsetup.cpp:776:  [2] (buffer) sprintf:
+  Does not check for buffer overflows (CWE-120). Use sprintf_s, snprintf, or
+  vsnprintf. Risk is low because the source has a constant maximum length.
+Hourglass-Resurrection/source/application/inputsetup.cpp:777:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/application/inputsetup.cpp:783:  [2] (buffer) sprintf:
+  Does not check for buffer overflows (CWE-120). Use sprintf_s, snprintf, or
+  vsnprintf. Risk is low because the source has a constant maximum length.
+Hourglass-Resurrection/source/application/inputsetup.cpp:786:  [2] (buffer) sprintf:
+  Does not check for buffer overflows (CWE-120). Use sprintf_s, snprintf, or
+  vsnprintf. Risk is low because the source has a constant maximum length.
+Hourglass-Resurrection/source/application/inputsetup.cpp:789:  [2] (buffer) sprintf:
+  Does not check for buffer overflows (CWE-120). Use sprintf_s, snprintf, or
+  vsnprintf. Risk is low because the source has a constant maximum length.
+Hourglass-Resurrection/source/application/inputsetup.cpp:792:  [2] (buffer) sprintf:
+  Does not check for buffer overflows (CWE-120). Use sprintf_s, snprintf, or
+  vsnprintf. Risk is low because the source has a constant maximum length.
+Hourglass-Resurrection/source/application/inputsetup.cpp:795:  [2] (buffer) sprintf:
+  Does not check for buffer overflows (CWE-120). Use sprintf_s, snprintf, or
+  vsnprintf. Risk is low because the source has a constant maximum length.
+Hourglass-Resurrection/source/application/inputsetup.cpp:800:  [2] (buffer) sprintf:
+  Does not check for buffer overflows (CWE-120). Use sprintf_s, snprintf, or
+  vsnprintf. Risk is low because the source has a constant maximum length.
+Hourglass-Resurrection/source/application/inputsetup.cpp:806:  [2] (buffer) sprintf:
+  Does not check for buffer overflows (CWE-120). Use sprintf_s, snprintf, or
+  vsnprintf. Risk is low because the source has a constant maximum length.
+Hourglass-Resurrection/source/application/inputsetup.cpp:809:  [2] (buffer) sprintf:
+  Does not check for buffer overflows (CWE-120). Use sprintf_s, snprintf, or
+  vsnprintf. Risk is low because the source has a constant maximum length.
+Hourglass-Resurrection/source/application/inputsetup.cpp:812:  [2] (buffer) sprintf:
+  Does not check for buffer overflows (CWE-120). Use sprintf_s, snprintf, or
+  vsnprintf. Risk is low because the source has a constant maximum length.
+Hourglass-Resurrection/source/application/inputsetup.cpp:815:  [2] (buffer) sprintf:
+  Does not check for buffer overflows (CWE-120). Use sprintf_s, snprintf, or
+  vsnprintf. Risk is low because the source has a constant maximum length.
+Hourglass-Resurrection/source/application/inputsetup.cpp:818:  [2] (buffer) sprintf:
+  Does not check for buffer overflows (CWE-120). Use sprintf_s, snprintf, or
+  vsnprintf. Risk is low because the source has a constant maximum length.
+Hourglass-Resurrection/source/application/inputsetup.cpp:821:  [2] (buffer) sprintf:
+  Does not check for buffer overflows (CWE-120). Use sprintf_s, snprintf, or
+  vsnprintf. Risk is low because the source has a constant maximum length.
+Hourglass-Resurrection/source/application/inputsetup.cpp:824:  [2] (buffer) sprintf:
+  Does not check for buffer overflows (CWE-120). Use sprintf_s, snprintf, or
+  vsnprintf. Risk is low because the source has a constant maximum length.
+Hourglass-Resurrection/source/application/inputsetup.cpp:827:  [2] (buffer) sprintf:
+  Does not check for buffer overflows (CWE-120). Use sprintf_s, snprintf, or
+  vsnprintf. Risk is low because the source has a constant maximum length.
+Hourglass-Resurrection/source/application/inputsetup.cpp:830:  [2] (buffer) sprintf:
+  Does not check for buffer overflows (CWE-120). Use sprintf_s, snprintf, or
+  vsnprintf. Risk is low because the source has a constant maximum length.
+Hourglass-Resurrection/source/application/inputsetup.cpp:833:  [2] (buffer) sprintf:
+  Does not check for buffer overflows (CWE-120). Use sprintf_s, snprintf, or
+  vsnprintf. Risk is low because the source has a constant maximum length.
+Hourglass-Resurrection/source/application/inputsetup.cpp:837:  [2] (buffer) sprintf:
+  Does not check for buffer overflows (CWE-120). Use sprintf_s, snprintf, or
+  vsnprintf. Risk is low because the source has a constant maximum length.
+Hourglass-Resurrection/source/application/inputsetup.cpp:843:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/application/inputsetup.cpp:844:  [2] (buffer) sprintf:
+  Does not check for buffer overflows (CWE-120). Use sprintf_s, snprintf, or
+  vsnprintf. Risk is low because the source has a constant maximum length.
+Hourglass-Resurrection/source/application/inputsetup.cpp:1216:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/application/inputsetup.cpp:1318:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/application/inputsetup.cpp:1632:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/application/inputsetup.cpp:1633:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/application/inputsetup.cpp:1768:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/application/inputsetup.cpp:1795:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/application/inputsetup.cpp:1821:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/application/inputsetup.cpp:1847:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/application/inputsetup.cpp:1858:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/application/inputsetup.cpp:1907:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/application/inputsetup.cpp:1908:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/application/inputsetup.cpp:1909:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/application/inputsetup.cpp:1910:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/application/inputsetup.cpp:1915:  [2] (buffer) sprintf:
+  Does not check for buffer overflows (CWE-120). Use sprintf_s, snprintf, or
+  vsnprintf. Risk is low because the source has a constant maximum length.
+Hourglass-Resurrection/source/application/inputsetup.cpp:1922:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/application/inputsetup.cpp:1975:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/application/inputsetup.cpp:1976:  [2] (buffer) sprintf:
+  Does not check for buffer overflows (CWE-120). Use sprintf_s, snprintf, or
+  vsnprintf. Risk is low because the source has a constant maximum length.
+Hourglass-Resurrection/source/application/inputsetup.cpp:1989:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/application/inputsetup.cpp:2025:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/application/inputsetup.cpp:2072:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/application/inputsetup.cpp:2073:  [2] (buffer) sprintf:
+  Does not check for buffer overflows (CWE-120). Use sprintf_s, snprintf, or
+  vsnprintf. Risk is low because the source has a constant maximum length.
+Hourglass-Resurrection/source/application/inputsetup.cpp:2097:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/application/inputsetup.cpp:2148:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/application/logging.cpp:148:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+Hourglass-Resurrection/source/application/md5.cpp:227:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/application/md5.cpp:231:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/application/md5.cpp:242:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/application/md5.h:37:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/application/ramsearch.cpp:97:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/application/ramsearch.cpp:366:  [2] (buffer) wcscpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using a function version that stops copying at the end
+  of the buffer. Risk is low because the source is a constant string.
+Hourglass-Resurrection/source/application/ramsearch.cpp:511:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/application/ramsearch.cpp:1135:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/application/ramsearch.cpp:1190:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/application/ramsearch.cpp:2210:  [2] (buffer) wcscpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using a function version that stops copying at the end
+  of the buffer. Risk is low because the source is a constant string.
+Hourglass-Resurrection/source/application/ramwatch.cpp:129:  [2] (buffer) wcscpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using a function version that stops copying at the end
+  of the buffer. Risk is low because the source is a constant string.
+Hourglass-Resurrection/source/application/ramwatch.cpp:476:  [2] (buffer) wcscat:
+  Does not check for buffer overflows when concatenating to destination
+  [MS-banned] (CWE-120). Risk is low because the source is a constant string.
+Hourglass-Resurrection/source/application/ramwatch.cpp:596:  [2] (buffer) wcscat:
+  Does not check for buffer overflows when concatenating to destination
+  [MS-banned] (CWE-120). Risk is low because the source is a constant string.
+Hourglass-Resurrection/source/application/ramwatch.cpp:823:  [2] (buffer) wcscpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using a function version that stops copying at the end
+  of the buffer. Risk is low because the source is a constant string.
+Hourglass-Resurrection/source/application/ramwatch.cpp:825:  [2] (buffer) wcscat:
+  Does not check for buffer overflows when concatenating to destination
+  [MS-banned] (CWE-120). Risk is low because the source is a constant string.
+Hourglass-Resurrection/source/application/ramwatch.cpp:827:  [2] (buffer) wcscat:
+  Does not check for buffer overflows when concatenating to destination
+  [MS-banned] (CWE-120). Risk is low because the source is a constant string.
+Hourglass-Resurrection/source/application/ramwatch.cpp:1048:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/application/ramwatch.cpp:1049:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/application/ramwatch.cpp:1050:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/application/ramwatch.cpp:1064:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/application/ramwatch.cpp:1065:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/application/ramwatch.cpp:1066:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/application/ramwatch.h:33:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/application/wintaser.cpp:220:  [2] (buffer) wcscat:
+  Does not check for buffer overflows when concatenating to destination
+  [MS-banned] (CWE-120). Risk is low because the source is a constant string.
+Hourglass-Resurrection/source/application/wintaser.cpp:598:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/application/wintaser.cpp:832:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/application/wintaser.cpp:955:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/application/wintaser.cpp:988:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/application/wintaser.cpp:1807:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/application/wintaser.cpp:1844:  [2] (buffer) sprintf:
+  Does not check for buffer overflows (CWE-120). Use sprintf_s, snprintf, or
+  vsnprintf. Risk is low because the source has a constant maximum length.
+Hourglass-Resurrection/source/application/wintaser.cpp:1852:  [2] (buffer) sprintf:
+  Does not check for buffer overflows (CWE-120). Use sprintf_s, snprintf, or
+  vsnprintf. Risk is low because the source has a constant maximum length.
+Hourglass-Resurrection/source/application/wintaser.cpp:1862:  [2] (buffer) sprintf:
+  Does not check for buffer overflows (CWE-120). Use sprintf_s, snprintf, or
+  vsnprintf. Risk is low because the source has a constant maximum length.
+Hourglass-Resurrection/source/application/wintaser.cpp:2280:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/application/wintaser.cpp:2283:  [2] (buffer) sprintf:
+  Does not check for buffer overflows (CWE-120). Use sprintf_s, snprintf, or
+  vsnprintf. Risk is low because the source has a constant maximum length.
+Hourglass-Resurrection/source/application/wintaser.cpp:2284:  [2] (misc) fopen:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+Hourglass-Resurrection/source/application/wintaser.cpp:2290:  [2] (misc) fopen:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+Hourglass-Resurrection/source/application/wintaser.cpp:3106:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/application/wintaser.cpp:3980:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/application/wintaser.cpp:4039:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/application/wintaser.cpp:4211:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/application/wintaser.cpp:4687:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/application/wintaser.cpp:4907:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/application/wintaser.cpp:5330:  [2] (buffer) wcscat:
+  Does not check for buffer overflows when concatenating to destination
+  [MS-banned] (CWE-120). Risk is low because the source is a constant string.
+Hourglass-Resurrection/source/application/wintaser.cpp:6588:  [2] (buffer) wcscpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using a function version that stops copying at the end
+  of the buffer. Risk is low because the source is a constant string.
+Hourglass-Resurrection/source/hooks/hooks/d3d8hooks.cpp:807:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/hooks/hooks/d3d8hooks.cpp:829:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/hooks/hooks/d3d9hooks.cpp:791:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/hooks/hooks/d3d9hooks.cpp:813:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/hooks/hooks/ddrawhooks.cpp:1043:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/hooks/hooks/ddrawhooks.cpp:1071:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/hooks/hooks/ddrawhooks.cpp:1310:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/hooks/hooks/ddrawhooks.cpp:1473:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/hooks/hooks/ddrawhooks.cpp:1691:  [2] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using snprintf, strcpy_s, or strlcpy (warning: strncpy
+  easily misused). Risk is low because the source is a constant string.
+Hourglass-Resurrection/source/hooks/hooks/ddrawhooks.cpp:1692:  [2] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using snprintf, strcpy_s, or strlcpy (warning: strncpy
+  easily misused). Risk is low because the source is a constant string.
+Hourglass-Resurrection/source/hooks/hooks/gdihooks.cpp:598:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/hooks/hooks/gdihooks.cpp:629:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/hooks/hooks/inputhooks.cpp:178:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/hooks/hooks/inputhooks.cpp:567:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/hooks/hooks/inputhooks.cpp:652:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/hooks/hooks/inputhooks.cpp:660:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/hooks/hooks/inputhooks.cpp:666:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/hooks/hooks/inputhooks.cpp:672:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/hooks/hooks/inputhooks.cpp:678:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/hooks/hooks/inputhooks.cpp:684:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/hooks/hooks/inputhooks.cpp:690:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/hooks/hooks/inputhooks.cpp:700:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/hooks/hooks/inputhooks.cpp:706:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/hooks/hooks/inputhooks.cpp:712:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/hooks/hooks/inputhooks.cpp:718:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/hooks/hooks/inputhooks.cpp:724:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/hooks/hooks/inputhooks.cpp:730:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/hooks/hooks/inputhooks.cpp:736:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/hooks/hooks/inputhooks.cpp:1356:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/hooks/hooks/inputhooks.cpp:1357:  [2] (buffer) sprintf:
+  Does not check for buffer overflows (CWE-120). Use sprintf_s, snprintf, or
+  vsnprintf. Risk is low because the source has a constant maximum length.
+Hourglass-Resurrection/source/hooks/hooks/inputhooks.cpp:1373:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/hooks/hooks/inputhooks.cpp:1374:  [2] (buffer) sprintf:
+  Does not check for buffer overflows (CWE-120). Use sprintf_s, snprintf, or
+  vsnprintf. Risk is low because the source has a constant maximum length.
+Hourglass-Resurrection/source/hooks/hooks/messagehooks.cpp:240:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/hooks/hooks/modulehooks.cpp:210:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/hooks/hooks/modulehooks.cpp:227:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/hooks/hooks/modulehooks.cpp:298:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/hooks/hooks/openglhooks.cpp:749:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/hooks/hooks/registryhooks.cpp:9:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/hooks/hooks/registryhooks.cpp:50:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/hooks/hooks/registryhooks.cpp:56:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/hooks/hooks/registryhooks.cpp:358:  [2] (buffer) MultiByteToWideChar:
+  Requires maximum length in CHARACTERS, not bytes (CWE-120).
+Hourglass-Resurrection/source/hooks/hooks/registryhooks.cpp:364:  [2] (buffer) MultiByteToWideChar:
+  Requires maximum length in CHARACTERS, not bytes (CWE-120).
+Hourglass-Resurrection/source/hooks/hooks/registryhooks.cpp:869:  [2] (buffer) MultiByteToWideChar:
+  Requires maximum length in CHARACTERS, not bytes (CWE-120).
+Hourglass-Resurrection/source/hooks/hooks/sdlhooks.cpp:46:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/hooks/hooks/soundhooks.cpp:153:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/hooks/hooks/soundhooks.cpp:166:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/hooks/hooks/soundhooks.cpp:249:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/hooks/hooks/soundhooks.cpp:357:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/hooks/hooks/soundhooks.cpp:373:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/hooks/hooks/soundhooks.cpp:501:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/hooks/hooks/soundhooks.cpp:508:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/hooks/hooks/soundhooks.cpp:566:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/hooks/hooks/soundhooks.cpp:749:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/hooks/hooks/soundhooks.cpp:753:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/hooks/hooks/soundhooks.cpp:897:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/hooks/hooks/soundhooks.cpp:2137:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/hooks/hooks/soundhooks.cpp:2344:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/source/hooks/hooks/threadhooks.cpp:11:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/hooks/hooks/threadhooks.cpp:176:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/hooks/hooks/threadhooks.cpp:197:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/hooks/hooks/threadhooks.cpp:281:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/hooks/hooks/threadhooks.cpp:339:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/hooks/locale.h:35:  [2] (buffer) MultiByteToWideChar:
+  Requires maximum length in CHARACTERS, not bytes (CWE-120).
+Hourglass-Resurrection/source/hooks/locale.h:38:  [2] (buffer) MultiByteToWideChar:
+  Requires maximum length in CHARACTERS, not bytes (CWE-120).
+Hourglass-Resurrection/source/hooks/tramps/registrytramps.h:33:  [2] (buffer) MultiByteToWideChar:
+  Requires maximum length in CHARACTERS, not bytes (CWE-120).
+Hourglass-Resurrection/source/hooks/wintasee.cpp:66:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/hooks/wintasee.cpp:167:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/hooks/wintasee.cpp:168:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/hooks/wintasee.cpp:231:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/hooks/wintasee.cpp:494:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/hooks/wintasee.cpp:495:  [2] (buffer) sprintf:
+  Does not check for buffer overflows (CWE-120). Use sprintf_s, snprintf, or
+  vsnprintf. Risk is low because the source has a constant maximum length.
+Hourglass-Resurrection/source/hooks/wintasee.cpp:631:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+Hourglass-Resurrection/source/hooks/wintasee.cpp:633:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+Hourglass-Resurrection/source/hooks/wintasee.h:38:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/hooks/wintasee.h:39:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/shared/input.h:13:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/shared/input.h:40:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/shared/input.h:57:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/shared/ipc.h:48:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/shared/ipc.h:58:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+Hourglass-Resurrection/source/shared/ipc.h:468:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+Hourglass-Resurrection/external/Catch/catch.hpp:8641:  [1] (buffer) equal:
+  Function does not check the second iterator for over-read conditions
+  (CWE-126). This function is often discouraged by most C++ coding standards
+  in favor of its safer alternatives provided since C++14. Consider using a
+  form of this function that checks the second iterator before potentially
+  overflowing it.
+Hourglass-Resurrection/external/Catch/catch.hpp:8647:  [1] (buffer) equal:
+  Function does not check the second iterator for over-read conditions
+  (CWE-126). This function is often discouraged by most C++ coding standards
+  in favor of its safer alternatives provided since C++14. Consider using a
+  form of this function that checks the second iterator before potentially
+  overflowing it.
+Hourglass-Resurrection/source/application/AVIDumping/AVIDumper.cpp:834:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+Hourglass-Resurrection/source/application/AVIDumping/AVIDumper.cpp:887:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+Hourglass-Resurrection/source/application/AVIDumping/AVIDumper.cpp:893:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+Hourglass-Resurrection/source/application/MainMenu.cpp:233:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+Hourglass-Resurrection/source/application/MainMenu.cpp:236:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+Hourglass-Resurrection/source/application/MainMenu.cpp:497:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+Hourglass-Resurrection/source/application/Movie.cpp:107:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+Hourglass-Resurrection/source/application/Movie.cpp:140:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+Hourglass-Resurrection/source/application/inject/process.cpp:44:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+Hourglass-Resurrection/source/application/inject/process.cpp:45:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+Hourglass-Resurrection/source/application/inject/process.cpp:115:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+Hourglass-Resurrection/source/application/inject/process.cpp:117:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+Hourglass-Resurrection/source/application/inject/process.cpp:118:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+Hourglass-Resurrection/source/application/inject/process.cpp:131:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+Hourglass-Resurrection/source/application/inject/process.cpp:134:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+Hourglass-Resurrection/source/application/inputsetup.cpp:854:  [1] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination
+  [MS-banned] (CWE-120). Consider using strcat_s, strncat, strlcat, or
+  snprintf (warning: strncat is easily misused). Risk is low because the
+  source is a constant character.
+Hourglass-Resurrection/source/application/inputsetup.cpp:886:  [1] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination
+  [MS-banned] (CWE-120). Consider using strcat_s, strncat, strlcat, or
+  snprintf (warning: strncat is easily misused). Risk is low because the
+  source is a constant character.
+Hourglass-Resurrection/source/application/ramsearch.cpp:408:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+Hourglass-Resurrection/source/application/ramsearch.cpp:411:  [1] (buffer) wcsncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+Hourglass-Resurrection/source/application/ramwatch.cpp:95:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+Hourglass-Resurrection/source/application/ramwatch.cpp:131:  [1] (buffer) wcscpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using a function version that stops copying at the end
+  of the buffer. Risk is low because the source is a constant character.
+Hourglass-Resurrection/source/application/ramwatch.cpp:261:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+Hourglass-Resurrection/source/application/ramwatch.cpp:277:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+Hourglass-Resurrection/source/application/ramwatch.cpp:286:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+Hourglass-Resurrection/source/application/ramwatch.cpp:292:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+Hourglass-Resurrection/source/application/ramwatch.cpp:296:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+Hourglass-Resurrection/source/application/ramwatch.cpp:309:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+Hourglass-Resurrection/source/application/ramwatch.cpp:787:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+Hourglass-Resurrection/source/application/ramwatch.cpp:787:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+Hourglass-Resurrection/source/application/wintaser.cpp:361:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+Hourglass-Resurrection/source/application/wintaser.cpp:369:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+Hourglass-Resurrection/source/application/wintaser.cpp:375:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+Hourglass-Resurrection/source/application/wintaser.cpp:389:  [1] (buffer) wcsncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+Hourglass-Resurrection/source/application/wintaser.cpp:2721:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+Hourglass-Resurrection/source/application/wintaser.cpp:5282:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+Hourglass-Resurrection/source/application/wintaser.cpp:5298:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+Hourglass-Resurrection/source/application/wintaser.cpp:5306:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+Hourglass-Resurrection/source/application/wintaser.cpp:5307:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+Hourglass-Resurrection/source/application/wintaser.cpp:5307:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+Hourglass-Resurrection/source/application/wintaser.cpp:5307:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+Hourglass-Resurrection/source/application/wintaser.cpp:5310:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+Hourglass-Resurrection/source/application/wintaser.cpp:6503:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+Hourglass-Resurrection/source/application/wintaser.cpp:6587:  [1] (buffer) wcscat:
+  Does not check for buffer overflows when concatenating to destination
+  [MS-banned] (CWE-120). Risk is low because the source is a constant
+  character.
+Hourglass-Resurrection/source/shared/ipc.h:303:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+Hourglass-Resurrection/source/shared/ipc.h:317:  [1] (buffer) wcsncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+Hourglass-Resurrection/source/shared/ipc.h:433:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+Hourglass-Resurrection/source/shared/ipc.h:446:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+
+ANALYSIS SUMMARY:
+
+Hits = 538
+Lines analyzed = 104814 in approximately 1.44 seconds (72557 lines/second)
+Physical Source Lines of Code (SLOC) = 73763
+Hits@level = [0]  24 [1]  49 [2] 249 [3]  90 [4] 150 [5]   0
+Hits@level+ = [0+] 562 [1+] 538 [2+] 489 [3+] 240 [4+] 150 [5+]   0
+Hits/KSLOC@level+ = [0+] 7.619 [1+] 7.29363 [2+] 6.62934 [3+] 3.25366 [4+] 2.03354 [5+]   0
+Dot directories skipped = 1 (--followdotdir overrides)
+Minimum risk level = 1
+Not every hit is necessarily a security vulnerability.
+There may be other security vulnerabilities; review your code!
+See 'Secure Programming HOWTO'
+(https://dwheeler.com/secure-programs) for more information.
