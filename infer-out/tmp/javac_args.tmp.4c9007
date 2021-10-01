@@ -1,0 +1,5 @@
+'-verbose'
+'-g'
+'-d'
+'/home/ubuntu/software_security'
+'Hello.java'

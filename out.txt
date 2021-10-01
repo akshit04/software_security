@@ -1,0 +1,777 @@
+Flawfinder version 2.0.10, (C) 2001-2019 David A. Wheeler.
+Number of rules (primarily dangerous function names) in C/C++ ruleset: 223
+Examining covid-sim/include/geometry/Size.h
+Examining covid-sim/include/geometry/BoundingBox.h
+Examining covid-sim/include/geometry/Vector2.h
+Examining covid-sim/unit_tests/test-params.cpp
+Examining covid-sim/unit_tests/test-error.cpp
+Examining covid-sim/unit_tests/test-files.cpp
+Examining covid-sim/unit_tests/test-person.cpp
+Examining covid-sim/unit_tests/geometry/BoundingBox.cpp
+Examining covid-sim/src/CovidSim.cpp
+Examining covid-sim/src/ReadParams.cpp
+Examining covid-sim/src/Update.cpp
+Examining covid-sim/src/Rand.cpp
+Examining covid-sim/src/Dist.h
+Examining covid-sim/src/CLI.cpp
+Examining covid-sim/src/CovidSim.h
+Examining covid-sim/src/Sweep.h
+Examining covid-sim/src/Rand.h
+Examining covid-sim/src/Kernels.cpp
+Examining covid-sim/src/Models/Microcell.h
+Examining covid-sim/src/Models/Cell.h
+Examining covid-sim/src/Models/Person.h
+Examining covid-sim/src/Models/Household.h
+Examining covid-sim/src/IndexList.h
+Examining covid-sim/src/InfStat.h
+Examining covid-sim/src/Bitmap.cpp
+Examining covid-sim/src/ReadParams.h
+Examining covid-sim/src/Kernels.h
+Examining covid-sim/src/SetupModel.cpp
+Examining covid-sim/src/Error.cpp
+Examining covid-sim/src/Country.h
+Examining covid-sim/src/Bitmap.h
+Examining covid-sim/src/CalcInfSusc.h
+Examining covid-sim/src/Model.h
+Examining covid-sim/src/MicroCellPosition.hpp
+Examining covid-sim/src/CalcInfSusc.cpp
+Examining covid-sim/src/Geometry/Vector2.cpp
+Examining covid-sim/src/Param.cpp
+Examining covid-sim/src/Person.cpp
+Examining covid-sim/src/InverseCdf.h
+Examining covid-sim/src/Sweep.cpp
+Examining covid-sim/src/Files.cpp
+Examining covid-sim/src/ModelMacros.h
+Examining covid-sim/src/Files.h
+Examining covid-sim/src/Error.h
+Examining covid-sim/src/Dist.cpp
+Examining covid-sim/src/Memory.h
+Examining covid-sim/src/Direction.cpp
+Examining covid-sim/src/SetupModel.h
+Examining covid-sim/src/CLI.h
+Examining covid-sim/src/InverseCdf.cpp
+Examining covid-sim/src/Param.h
+Examining covid-sim/src/Constants.h
+Examining covid-sim/src/Update.h
+Examining covid-sim/src/Memory.cpp
+Examining covid-sim/src/Direction.hpp
+Examining covid-sim/build/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Examining covid-sim/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Examining covid-sim/build/CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp
+Examining covid-sim/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Examining covid-sim/build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp
+Examining covid-sim/build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c
+Examining covid-sim/build/_deps/googletest-src/googletest/test/gtest_environment_test.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/test/gtest-unittest-api_test.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/test/gtest_testbridge_test_.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/test/googletest-uninitialized-test_.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/test/googletest-options-test.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/test/googletest-test2_test.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/test/production.h
+Examining covid-sim/build/_deps/googletest-src/googletest/test/gtest_no_test_unittest.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/test/gtest-typed-test_test.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/test/gtest_pred_impl_unittest.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/test/googletest-param-test-test.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/test/googletest-output-test_.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/test/googletest-param-test-test.h
+Examining covid-sim/build/_deps/googletest-src/googletest/test/googletest-throw-on-failure-test_.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/test/gtest_list_output_unittest_.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/test/googletest-filter-unittest_.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/test/gtest_prod_test.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/test/gtest_unittest.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/test/googletest-shuffle-test_.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/test/gtest_assert_by_exception_test.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/test/production.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/test/gtest_all_test.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/test/googletest-port-test.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/test/googletest-break-on-failure-unittest_.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/test/googletest-param-test-invalid-name2-test_.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/test/gtest-typed-test2_test.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/test/googletest-listener-test.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/test/googletest-list-tests-unittest_.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/test/googletest-param-test2-test.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/test/googletest-param-test-invalid-name1-test_.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/test/gtest_xml_outfile2_test_.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/test/gtest_repeat_test.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/test/gtest_main_unittest.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/test/gtest_sole_header_test.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/test/googletest-message-test.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/test/googletest-color-test_.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/test/gtest_skip_test.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/test/googletest-env-var-test_.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/test/gtest_xml_outfile1_test_.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/test/gtest_stress_test.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/test/googletest-test-part-test.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/test/gtest_premature_exit_test.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/test/googletest-catch-exceptions-test_.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/test/gtest_test_macro_stack_footprint_test.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/test/gtest_xml_output_unittest_.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/test/gtest_help_test_.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/test/gtest_skip_in_environment_setup_test.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/test/googletest-death-test_ex_test.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/test/googletest-death-test-test.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/test/gtest_throw_on_failure_ex_test.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/test/googletest-printers-test.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/test/gtest-typed-test_test.h
+Examining covid-sim/build/_deps/googletest-src/googletest/test/googletest-filepath-test.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/include/gtest/gtest-message.h
+Examining covid-sim/build/_deps/googletest-src/googletest/include/gtest/gtest-typed-test.h
+Examining covid-sim/build/_deps/googletest-src/googletest/include/gtest/gtest-matchers.h
+Examining covid-sim/build/_deps/googletest-src/googletest/include/gtest/gtest-death-test.h
+Examining covid-sim/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h
+Examining covid-sim/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-filepath.h
+Examining covid-sim/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h
+Examining covid-sim/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port.h
+Examining covid-sim/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port-arch.h
+Examining covid-sim/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-string.h
+Examining covid-sim/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-internal.h
+Examining covid-sim/build/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-printers.h
+Examining covid-sim/build/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest.h
+Examining covid-sim/build/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-port.h
+Examining covid-sim/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-death-test-internal.h
+Examining covid-sim/build/_deps/googletest-src/googletest/include/gtest/gtest-printers.h
+Examining covid-sim/build/_deps/googletest-src/googletest/include/gtest/gtest.h
+Examining covid-sim/build/_deps/googletest-src/googletest/include/gtest/gtest-param-test.h
+Examining covid-sim/build/_deps/googletest-src/googletest/include/gtest/gtest-test-part.h
+Examining covid-sim/build/_deps/googletest-src/googletest/include/gtest/gtest_prod.h
+Examining covid-sim/build/_deps/googletest-src/googletest/include/gtest/gtest_pred_impl.h
+Examining covid-sim/build/_deps/googletest-src/googletest/include/gtest/gtest-spi.h
+Examining covid-sim/build/_deps/googletest-src/googletest/src/gtest-death-test.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/src/gtest-typed-test.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/src/gtest-test-part.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/src/gtest-filepath.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/src/gtest-port.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/src/gtest-internal-inl.h
+Examining covid-sim/build/_deps/googletest-src/googletest/src/gtest-matchers.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/src/gtest-printers.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/src/gtest.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/src/gtest-all.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/samples/sample1_unittest.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/samples/prime_tables.h
+Examining covid-sim/build/_deps/googletest-src/googletest/samples/sample5_unittest.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/samples/sample3-inl.h
+Examining covid-sim/build/_deps/googletest-src/googletest/samples/sample8_unittest.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/samples/sample4.h
+Examining covid-sim/build/_deps/googletest-src/googletest/samples/sample10_unittest.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/samples/sample4.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/samples/sample2_unittest.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/samples/sample2.h
+Examining covid-sim/build/_deps/googletest-src/googletest/samples/sample1.h
+Examining covid-sim/build/_deps/googletest-src/googletest/samples/sample7_unittest.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/samples/sample6_unittest.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/samples/sample4_unittest.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/samples/sample1.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/samples/sample9_unittest.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/samples/sample2.cc
+Examining covid-sim/build/_deps/googletest-src/googletest/samples/sample3_unittest.cc
+Examining covid-sim/build/_deps/googletest-src/googlemock/test/gmock-actions_test.cc
+Examining covid-sim/build/_deps/googletest-src/googlemock/test/gmock-generated-function-mockers_test.cc
+Examining covid-sim/build/_deps/googletest-src/googlemock/test/gmock-matchers_test.cc
+Examining covid-sim/build/_deps/googletest-src/googlemock/test/gmock-internal-utils_test.cc
+Examining covid-sim/build/_deps/googletest-src/googlemock/test/gmock_link_test.cc
+Examining covid-sim/build/_deps/googletest-src/googlemock/test/gmock_all_test.cc
+Examining covid-sim/build/_deps/googletest-src/googlemock/test/gmock-function-mocker_nc.cc
+Examining covid-sim/build/_deps/googletest-src/googlemock/test/gmock_stress_test.cc
+Examining covid-sim/build/_deps/googletest-src/googlemock/test/gmock_ex_test.cc
+Examining covid-sim/build/_deps/googletest-src/googlemock/test/gmock-spec-builders_test.cc
+Examining covid-sim/build/_deps/googletest-src/googlemock/test/gmock-nice-strict_test.cc
+Examining covid-sim/build/_deps/googletest-src/googlemock/test/gmock-more-actions_test.cc
+Examining covid-sim/build/_deps/googletest-src/googlemock/test/gmock-function-mocker_test.cc
+Examining covid-sim/build/_deps/googletest-src/googlemock/test/gmock-generated-actions_test.cc
+Examining covid-sim/build/_deps/googletest-src/googlemock/test/gmock_link2_test.cc
+Examining covid-sim/build/_deps/googletest-src/googlemock/test/gmock-pp-string_test.cc
+Examining covid-sim/build/_deps/googletest-src/googlemock/test/gmock-cardinalities_test.cc
+Examining covid-sim/build/_deps/googletest-src/googlemock/test/gmock_test.cc
+Examining covid-sim/build/_deps/googletest-src/googlemock/test/gmock-generated-matchers_test.cc
+Examining covid-sim/build/_deps/googletest-src/googlemock/test/gmock_link_test.h
+Examining covid-sim/build/_deps/googletest-src/googlemock/test/gmock-pp_test.cc
+Examining covid-sim/build/_deps/googletest-src/googlemock/test/gmock_leak_test_.cc
+Examining covid-sim/build/_deps/googletest-src/googlemock/test/gmock-port_test.cc
+Examining covid-sim/build/_deps/googletest-src/googlemock/test/gmock_output_test_.cc
+Examining covid-sim/build/_deps/googletest-src/googlemock/include/gmock/gmock-generated-matchers.h
+Examining covid-sim/build/_deps/googletest-src/googlemock/include/gmock/gmock.h
+Examining covid-sim/build/_deps/googletest-src/googlemock/include/gmock/gmock-function-mocker.h
+Examining covid-sim/build/_deps/googletest-src/googlemock/include/gmock/gmock-generated-function-mockers.h
+Examining covid-sim/build/_deps/googletest-src/googlemock/include/gmock/gmock-cardinalities.h
+Examining covid-sim/build/_deps/googletest-src/googlemock/include/gmock/gmock-generated-actions.h
+Examining covid-sim/build/_deps/googletest-src/googlemock/include/gmock/internal/gmock-internal-utils.h
+Examining covid-sim/build/_deps/googletest-src/googlemock/include/gmock/internal/gmock-pp.h
+Examining covid-sim/build/_deps/googletest-src/googlemock/include/gmock/internal/gmock-port.h
+Examining covid-sim/build/_deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-generated-actions.h
+Examining covid-sim/build/_deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-port.h
+Examining covid-sim/build/_deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-matchers.h
+Examining covid-sim/build/_deps/googletest-src/googlemock/include/gmock/gmock-matchers.h
+Examining covid-sim/build/_deps/googletest-src/googlemock/include/gmock/gmock-spec-builders.h
+Examining covid-sim/build/_deps/googletest-src/googlemock/include/gmock/gmock-nice-strict.h
+Examining covid-sim/build/_deps/googletest-src/googlemock/include/gmock/gmock-more-actions.h
+Examining covid-sim/build/_deps/googletest-src/googlemock/include/gmock/gmock-actions.h
+Examining covid-sim/build/_deps/googletest-src/googlemock/include/gmock/gmock-more-matchers.h
+Examining covid-sim/build/_deps/googletest-src/googlemock/src/gmock-cardinalities.cc
+Examining covid-sim/build/_deps/googletest-src/googlemock/src/gmock.cc
+Examining covid-sim/build/_deps/googletest-src/googlemock/src/gmock-spec-builders.cc
+Examining covid-sim/build/_deps/googletest-src/googlemock/src/gmock-matchers.cc
+Examining covid-sim/build/_deps/googletest-src/googlemock/src/gmock-all.cc
+Examining covid-sim/build/_deps/googletest-src/googlemock/src/gmock_main.cc
+Examining covid-sim/build/_deps/googletest-src/googlemock/src/gmock-internal-utils.cc
+
+FINAL RESULTS:
+
+covid-sim/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-death-test-internal.h:194:  [4] (format) fprintf:
+  If format strings can be influenced by an attacker, they can be exploited
+  (CWE-134). Use a constant for the format specification.
+covid-sim/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port.h:2016:  [4] (buffer) StrNCpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using snprintf, strcpy_s, or strlcpy (warning: strncpy
+  easily misused).
+covid-sim/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port.h:2086:  [4] (format) _snprintf:
+  If format strings can be influenced by an attacker, they can be exploited,
+  and note that sprintf variations do not always \0-terminate (CWE-134). Use
+  a constant for the format specification.
+covid-sim/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port.h:2088:  [4] (format) snprintf:
+  If format strings can be influenced by an attacker, they can be exploited,
+  and note that sprintf variations do not always \0-terminate (CWE-134). Use
+  a constant for the format specification.
+covid-sim/build/_deps/googletest-src/googletest/src/gtest.cc:125:  [4] (format) vsnprintf:
+  If format strings can be influenced by an attacker, they can be exploited,
+  and note that sprintf variations do not always \0-terminate (CWE-134). Use
+  a constant for the format specification.
+covid-sim/build/_deps/googletest-src/googletest/src/gtest.cc:3044:  [4] (format) vprintf:
+  If format strings can be influenced by an attacker, they can be exploited
+  (CWE-134). Use a constant for the format specification.
+covid-sim/build/_deps/googletest-src/googletest/src/gtest.cc:3065:  [4] (format) vprintf:
+  If format strings can be influenced by an attacker, they can be exploited
+  (CWE-134). Use a constant for the format specification.
+covid-sim/build/_deps/googletest-src/googletest/src/gtest.cc:3072:  [4] (format) vprintf:
+  If format strings can be influenced by an attacker, they can be exploited
+  (CWE-134). Use a constant for the format specification.
+covid-sim/build/_deps/googletest-src/googletest/test/googletest-death-test-test.cc:1352:  [4] (format) fprintf:
+  If format strings can be influenced by an attacker, they can be exploited
+  (CWE-134). Use a constant for the format specification.
+covid-sim/build/_deps/googletest-src/googletest/test/googletest-death-test-test.cc:1362:  [4] (format) fprintf:
+  If format strings can be influenced by an attacker, they can be exploited
+  (CWE-134). Use a constant for the format specification.
+covid-sim/src/CovidSim.cpp:666:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using snprintf, strcpy_s, or strlcpy (warning: strncpy
+  easily misused).
+covid-sim/src/Error.cpp:11:  [4] (format) vfprintf:
+  If format strings can be influenced by an attacker, they can be exploited
+  (CWE-134). Use a constant for the format specification.
+covid-sim/src/Error.h:12:  [4] (format) printf:
+  If format strings can be influenced by an attacker, they can be exploited
+  (CWE-134). Use a constant for the format specification.
+covid-sim/src/Files.cpp:89:  [4] (format) vfprintf:
+  If format strings can be influenced by an attacker, they can be exploited
+  (CWE-134). Use a constant for the format specification.
+covid-sim/src/Files.cpp:101:  [4] (format) vfprintf:
+  If format strings can be influenced by an attacker, they can be exploited
+  (CWE-134). Use a constant for the format specification.
+covid-sim/src/Files.cpp:114:  [4] (buffer) vfscanf:
+  The scanf() family's %s operation, without a limit specification, permits
+  buffer overflows (CWE-120, CWE-20). Specify a limit to %s, or use a
+  different input function. If the scanf format is influenceable by an
+  attacker, it's exploitable.
+covid-sim/src/Files.cpp:144:  [4] (format) vsprintf:
+  Potential format string problem (CWE-134). Make format string constant.
+covid-sim/src/Files.cpp:155:  [4] (buffer) vsscanf:
+  The scanf() family's %s operation, without a limit specification, permits
+  buffer overflows (CWE-120, CWE-20). Specify a limit to %s, or use a
+  different input function. If the scanf format is influenceable by an
+  attacker, it's exploitable.
+covid-sim/src/ReadParams.cpp:426:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using snprintf, strcpy_s, or strlcpy (warning: strncpy
+  easily misused).
+covid-sim/src/ReadParams.cpp:1825:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using snprintf, strcpy_s, or strlcpy (warning: strncpy
+  easily misused).
+covid-sim/src/ReadParams.cpp:1826:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using snprintf, strcpy_s, or strlcpy (warning: strncpy
+  easily misused).
+covid-sim/src/ReadParams.cpp:1854:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using snprintf, strcpy_s, or strlcpy (warning: strncpy
+  easily misused).
+covid-sim/src/ReadParams.cpp:1855:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination [MS-banned]
+  (CWE-120). Consider using snprintf, strcpy_s, or strlcpy (warning: strncpy
+  easily misused).
+covid-sim/unit_tests/test-files.cpp:116:  [4] (buffer) sprintf:
+  Does not check for buffer overflows (CWE-120). Use sprintf_s, snprintf, or
+  vsnprintf.
+covid-sim/unit_tests/test-files.cpp:133:  [4] (buffer) sscanf:
+  The scanf() family's %s operation, without a limit specification, permits
+  buffer overflows (CWE-120, CWE-20). Specify a limit to %s, or use a
+  different input function.
+covid-sim/build/_deps/googletest-src/googlemock/test/gmock-matchers_test.cc:5925:  [3] (random) srand:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+covid-sim/build/_deps/googletest-src/googletest/include/gtest/gtest.h:996:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+covid-sim/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port.h:2055:  [3] (buffer) getenv:
+  Environment variables are untrustable input if they can be set by an
+  attacker. They can have any content and length, and the same variable can
+  be set more than once (CWE-807, CWE-20). Check environment variables
+  carefully before using them.
+covid-sim/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port.h:2058:  [3] (buffer) getenv:
+  Environment variables are untrustable input if they can be set by an
+  attacker. They can have any content and length, and the same variable can
+  be set more than once (CWE-807, CWE-20). Check environment variables
+  carefully before using them.
+covid-sim/build/_deps/googletest-src/googletest/src/gtest-internal-inl.h:310:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+covid-sim/build/_deps/googletest-src/googletest/src/gtest-internal-inl.h:334:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+covid-sim/build/_deps/googletest-src/googletest/src/gtest-internal-inl.h:335:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+covid-sim/build/_deps/googletest-src/googletest/src/gtest-internal-inl.h:817:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+covid-sim/build/_deps/googletest-src/googletest/src/gtest-port.cc:345:  [3] (misc) InitializeCriticalSection:
+  Exceptions can be thrown in low-memory situations. Use
+  InitializeCriticalSectionAndSpinCount instead.
+covid-sim/build/_deps/googletest-src/googletest/src/gtest-port.cc:360:  [3] (misc) EnterCriticalSection:
+  On some versions of Windows, exceptions can be thrown in low-memory
+  situations. Use InitializeCriticalSectionAndSpinCount instead.
+covid-sim/build/_deps/googletest-src/googletest/src/gtest-port.cc:433:  [3] (misc) InitializeCriticalSection:
+  Exceptions can be thrown in low-memory situations. Use
+  InitializeCriticalSectionAndSpinCount instead.
+covid-sim/build/_deps/googletest-src/googletest/src/gtest.cc:2841:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+covid-sim/build/_deps/googletest-src/googletest/src/gtest.cc:2842:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+covid-sim/build/_deps/googletest-src/googletest/src/gtest.cc:5302:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+covid-sim/build/_deps/googletest-src/googletest/src/gtest.cc:5661:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+covid-sim/build/_deps/googletest-src/googletest/src/gtest.cc:5664:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+covid-sim/build/_deps/googletest-src/googletest/src/gtest.cc:5669:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+covid-sim/build/_deps/googletest-src/googletest/test/gtest_unittest.cc:441:  [3] (buffer) getenv:
+  Environment variables are untrustable input if they can be set by an
+  attacker. They can have any content and length, and the same variable can
+  be set more than once (CWE-807, CWE-20). Check environment variables
+  carefully before using them.
+covid-sim/build/_deps/googletest-src/googletest/test/gtest_unittest.cc:442:  [3] (buffer) getenv:
+  Environment variables are untrustable input if they can be set by an
+  attacker. They can have any content and length, and the same variable can
+  be set more than once (CWE-807, CWE-20). Check environment variables
+  carefully before using them.
+covid-sim/build/_deps/googletest-src/googletest/test/gtest_unittest.cc:780:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+covid-sim/build/_deps/googletest-src/googletest/test/gtest_unittest.cc:782:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+covid-sim/build/_deps/googletest-src/googletest/test/gtest_unittest.cc:785:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+covid-sim/build/_deps/googletest-src/googletest/test/gtest_unittest.cc:792:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+covid-sim/build/_deps/googletest-src/googletest/test/gtest_unittest.cc:794:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+covid-sim/build/_deps/googletest-src/googletest/test/gtest_unittest.cc:809:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+covid-sim/build/_deps/googletest-src/googletest/test/gtest_unittest.cc:811:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+covid-sim/build/_deps/googletest-src/googletest/test/gtest_unittest.cc:814:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+covid-sim/build/_deps/googletest-src/googletest/test/gtest_unittest.cc:816:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+covid-sim/build/_deps/googletest-src/googletest/test/gtest_unittest.cc:881:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+covid-sim/build/_deps/googletest-src/googletest/test/gtest_unittest.cc:884:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+covid-sim/build/_deps/googletest-src/googletest/test/gtest_unittest.cc:887:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+covid-sim/build/_deps/googletest-src/googletest/test/gtest_unittest.cc:890:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+covid-sim/build/_deps/googletest-src/googletest/test/gtest_unittest.cc:893:  [3] (random) random:
+  This function is not sufficiently random for security-related functions
+  such as key and nonce creation (CWE-327). Use a more secure technique for
+  acquiring random values.
+covid-sim/build/_deps/googletest-src/googlemock/test/gmock-internal-utils_test.cc:463:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+covid-sim/build/_deps/googletest-src/googlemock/test/gmock-more-actions_test.cc:618:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+covid-sim/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port.h:2028:  [2] (misc) fopen:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+covid-sim/build/_deps/googletest-src/googletest/samples/sample2.cc:42:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+covid-sim/build/_deps/googletest-src/googletest/src/gtest-death-test.cc:348:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+covid-sim/build/_deps/googletest-src/googletest/src/gtest-death-test.cc:771:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+covid-sim/build/_deps/googletest-src/googletest/src/gtest-death-test.cc:1320:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+covid-sim/build/_deps/googletest-src/googletest/src/gtest-filepath.cc:101:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+covid-sim/build/_deps/googletest-src/googletest/src/gtest-filepath.cc:104:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+covid-sim/build/_deps/googletest-src/googletest/src/gtest-port.cc:222:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+covid-sim/build/_deps/googletest-src/googletest/src/gtest-port.cc:1003:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+covid-sim/build/_deps/googletest-src/googletest/src/gtest-port.cc:1077:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+covid-sim/build/_deps/googletest-src/googletest/src/gtest-port.cc:1078:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+covid-sim/build/_deps/googletest-src/googletest/src/gtest-port.cc:1112:  [2] (tmpfile) mkstemp:
+  Potential for temporary file vulnerability in some circumstances. Some
+  older Unix-like systems create temp files with permission to write by all
+  by default, so be sure to set the umask to override this. Also, some older
+  Unix systems might fail to use O_EXCL when opening the file, so make sure
+  that O_EXCL is used by the library (CWE-377).
+covid-sim/build/_deps/googletest-src/googletest/src/gtest-printers.cc:66:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+covid-sim/build/_deps/googletest-src/googletest/src/gtest.cc:881:  [2] (buffer) MultiByteToWideChar:
+  Requires maximum length in CHARACTERS, not bytes (CWE-120).
+covid-sim/build/_deps/googletest-src/googletest/src/gtest.cc:883:  [2] (buffer) MultiByteToWideChar:
+  Requires maximum length in CHARACTERS, not bytes (CWE-120).
+covid-sim/build/_deps/googletest-src/googletest/src/gtest.cc:1685:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+covid-sim/build/_deps/googletest-src/googletest/src/gtest.cc:1769:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+covid-sim/build/_deps/googletest-src/googletest/src/gtest.cc:4460:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+covid-sim/build/_deps/googletest-src/googletest/src/gtest.cc:4466:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+covid-sim/build/_deps/googletest-src/googletest/test/googletest-filepath-test.cc:358:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+covid-sim/build/_deps/googletest-src/googletest/test/googletest-filepath-test.cc:375:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+covid-sim/build/_deps/googletest-src/googletest/test/googletest-printers-test.cc:120:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+covid-sim/build/_deps/googletest-src/googletest/test/googletest-printers-test.cc:123:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+covid-sim/build/_deps/googletest-src/googletest/test/googletest-printers-test.cc:1038:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+covid-sim/build/_deps/googletest-src/googletest/test/gtest_unittest.cc:7247:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+covid-sim/build/_deps/googletest-src/googletest/test/gtest_unittest.cc:7331:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+covid-sim/src/Bitmap.cpp:110:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+covid-sim/src/Bitmap.cpp:113:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+covid-sim/src/Bitmap.cpp:153:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+covid-sim/src/Bitmap.cpp:276:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+covid-sim/src/Bitmap.h:39:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+covid-sim/src/CovidSim.cpp:560:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+covid-sim/src/CovidSim.cpp:614:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+covid-sim/src/CovidSim.cpp:3646:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+covid-sim/src/Files.cpp:60:  [2] (misc) fopen:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+covid-sim/src/Files.cpp:70:  [2] (misc) fopen:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+covid-sim/src/Files.cpp:80:  [2] (misc) fopen:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+covid-sim/src/Model.h:280:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+covid-sim/src/ReadParams.cpp:1142:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+covid-sim/src/ReadParams.cpp:1821:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+covid-sim/src/ReadParams.cpp:1823:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+covid-sim/src/ReadParams.cpp:1846:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+covid-sim/src/ReadParams.cpp:1848:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+covid-sim/src/ReadParams.cpp:1852:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+covid-sim/src/SetupModel.cpp:35:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+covid-sim/src/SetupModel.cpp:853:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+covid-sim/unit_tests/test-files.cpp:119:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+covid-sim/build/_deps/googletest-src/googlemock/test/gmock-generated-matchers_test.cc:327:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+covid-sim/build/_deps/googletest-src/googlemock/test/gmock-matchers_test.cc:4287:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+covid-sim/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port.h:2017:  [1] (buffer) strncpy:
+  Easily used incorrectly; doesn't always \0-terminate or check for invalid
+  pointers [MS-banned] (CWE-120).
+covid-sim/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port.h:2039:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+covid-sim/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h:66:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+covid-sim/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h:67:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+covid-sim/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h:70:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+covid-sim/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h:70:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+covid-sim/build/_deps/googletest-src/googletest/samples/sample2.cc:40:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+covid-sim/build/_deps/googletest-src/googletest/samples/sample2.h:74:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+covid-sim/build/_deps/googletest-src/googletest/src/gtest-death-test.cc:934:  [1] (buffer) read:
+  Check buffer boundaries if used in a loop including recursive loops
+  (CWE-120, CWE-20).
+covid-sim/build/_deps/googletest-src/googletest/src/gtest-port.cc:741:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+covid-sim/build/_deps/googletest-src/googletest/src/gtest-port.cc:991:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+covid-sim/build/_deps/googletest-src/googletest/src/gtest-printers.cc:337:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+covid-sim/build/_deps/googletest-src/googletest/src/gtest-printers.cc:354:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+covid-sim/build/_deps/googletest-src/googletest/src/gtest.cc:879:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+covid-sim/build/_deps/googletest-src/googletest/src/gtest.cc:1833:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+covid-sim/build/_deps/googletest-src/googletest/src/gtest.cc:3756:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+covid-sim/build/_deps/googletest-src/googletest/src/gtest.cc:4364:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+covid-sim/build/_deps/googletest-src/googletest/src/gtest.cc:5722:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+covid-sim/build/_deps/googletest-src/googletest/src/gtest.cc:6147:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+covid-sim/build/_deps/googletest-src/googletest/test/googletest-printers-test.cc:845:  [1] (buffer) equal:
+  Function does not check the second iterator for over-read conditions
+  (CWE-126). This function is often discouraged by most C++ coding standards
+  in favor of its safer alternatives provided since C++14. Consider using a
+  form of this function that checks the second iterator before potentially
+  overflowing it.
+covid-sim/src/Bitmap.cpp:175:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+covid-sim/src/CovidSim.cpp:666:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+covid-sim/src/ReadParams.cpp:1825:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+covid-sim/src/ReadParams.cpp:1826:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+covid-sim/src/ReadParams.cpp:1854:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+covid-sim/src/ReadParams.cpp:1855:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+
+ANALYSIS SUMMARY:
+
+Hits = 135
+Lines analyzed = 107009 in approximately 1.52 seconds (70452 lines/second)
+Physical Source Lines of Code (SLOC) = 70249
+Hits@level = [0] 177 [1]  28 [2]  49 [3]  33 [4]  25 [5]   0
+Hits@level+ = [0+] 312 [1+] 135 [2+] 107 [3+]  58 [4+]  25 [5+]   0
+Hits/KSLOC@level+ = [0+] 4.44134 [1+] 1.92174 [2+] 1.52315 [3+] 0.825635 [4+] 0.355877 [5+]   0
+Dot directories skipped = 3 (--followdotdir overrides)
+Minimum risk level = 1
+Not every hit is necessarily a security vulnerability.
+There may be other security vulnerabilities; review your code!
+See 'Secure Programming HOWTO'
+(https://dwheeler.com/secure-programs) for more information.

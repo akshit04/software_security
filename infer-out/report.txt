@@ -1,0 +1,13 @@
+#0
+Hello.java:59: error: Resource Leak
+  resource of type `java.io.FileOutputStream` acquired to `fos` by call to `FileOutputStream(...)` at line 53 is not released after line 59.
+**Note**: potential exception at line 56
+  57.         if (fos != null) { fos.close(); }
+  58.       }
+  59. >   }
+  60.   
+  61.     public static void main(String[] args) {
+
+Found 1 issue
+    Issue Type(ISSUED_TYPE_ID): #
+  Resource Leak(RESOURCE_LEAK): 1
